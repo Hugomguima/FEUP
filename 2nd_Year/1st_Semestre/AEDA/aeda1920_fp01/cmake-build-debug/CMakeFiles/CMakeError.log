@@ -1,0 +1,64 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/utilizador/Desktop/2ºano/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe cmTC_4249f/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_4249f.dir\build.make CMakeFiles/cmTC_4249f.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/utilizador/Desktop/2║ano/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4249f.dir/testCCompiler.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe    -o CMakeFiles\cmTC_4249f.dir\testCCompiler.c.obj   -c C:\Users\utilizador\Desktop\2┬║ano\AEDA\aeda1920_fp01\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+gcc.exe: error: C:\Users\utilizador\Desktop\2┬║ano\AEDA\aeda1920_fp01\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c: No such file or directory
+gcc.exe: fatal error: no input files
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_4249f.dir\build.make:65: CMakeFiles/cmTC_4249f.dir/testCCompiler.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/utilizador/Desktop/2║ano/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_4249f/fast] Error 2
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/utilizador/Desktop/2ºano/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe cmTC_05e88/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_05e88.dir\build.make CMakeFiles/cmTC_05e88.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/utilizador/Desktop/2║ano/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_05e88.dir/testCCompiler.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe    -o CMakeFiles\cmTC_05e88.dir\testCCompiler.c.obj   -c C:\Users\utilizador\Desktop\2┬║ano\AEDA\aeda1920_fp01\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+gcc.exe: error: C:\Users\utilizador\Desktop\2┬║ano\AEDA\aeda1920_fp01\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c: No such file or directory
+gcc.exe: fatal error: no input files
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_05e88.dir\build.make:65: CMakeFiles/cmTC_05e88.dir/testCCompiler.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/utilizador/Desktop/2║ano/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_05e88/fast] Error 2
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/utilizador/Desktop/2ºano/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe cmTC_09e44/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_09e44.dir\build.make CMakeFiles/cmTC_09e44.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/utilizador/Desktop/2║ano/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_09e44.dir/testCCompiler.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe    -o CMakeFiles\cmTC_09e44.dir\testCCompiler.c.obj   -c C:\Users\utilizador\Desktop\2┬║ano\AEDA\aeda1920_fp01\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+gcc.exe: error: C:\Users\utilizador\Desktop\2┬║ano\AEDA\aeda1920_fp01\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c: No such file or directory
+gcc.exe: fatal error: no input files
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_09e44.dir\build.make:65: CMakeFiles/cmTC_09e44.dir/testCCompiler.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/utilizador/Desktop/2║ano/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_09e44/fast] Error 2
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/utilizador/Desktop/2ºano/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe cmTC_59466/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_59466.dir\build.make CMakeFiles/cmTC_59466.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/utilizador/Desktop/2║ano/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_59466.dir/testCCompiler.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe    -o CMakeFiles\cmTC_59466.dir\testCCompiler.c.obj   -c C:\Users\utilizador\Desktop\2┬║ano\AEDA\aeda1920_fp01\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+gcc.exe: error: C:\Users\utilizador\Desktop\2┬║ano\AEDA\aeda1920_fp01\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c: No such file or directory
+gcc.exe: fatal error: no input files
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_59466.dir\build.make:65: CMakeFiles/cmTC_59466.dir/testCCompiler.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/utilizador/Desktop/2║ano/AEDA/aeda1920_fp01/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_59466/fast] Error 2
+
+
+

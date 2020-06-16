@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\utilizador\desktop\cpp\exame_2011_2012\exame_2011_2012\main.cpp(39): warning C4018: '<': signed/unsigned mismatch
+c:\users\utilizador\desktop\cpp\exame_2011_2012\exame_2011_2012\main.cpp(41): error C2446: '!=': no conversion from 'const char *' to 'int'
+  c:\users\utilizador\desktop\cpp\exame_2011_2012\exame_2011_2012\main.cpp(41): note: There is no context in which this conversion is possible

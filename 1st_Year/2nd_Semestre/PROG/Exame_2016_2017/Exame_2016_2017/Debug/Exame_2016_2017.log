@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\utilizador\desktop\cpp\exame_2016_2017\exame_2016_2017\main.cpp(26): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+c:\users\utilizador\desktop\cpp\exame_2016_2017\exame_2016_2017\main.cpp(27): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+c:\users\utilizador\desktop\cpp\exame_2016_2017\exame_2016_2017\main.cpp(28): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers

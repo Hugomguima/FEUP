@@ -1,0 +1,8 @@
+﻿  main.cpp
+c:\users\utilizador\desktop\cpp\exame _2017_2018\exame _2017_2018\main.cpp(16): warning C4018: '<': signed/unsigned mismatch
+c:\users\utilizador\desktop\cpp\exame _2017_2018\exame _2017_2018\main.cpp(25): warning C4018: '<': signed/unsigned mismatch
+Board.obj : error LNK2019: unresolved external symbol "public: unsigned int __thiscall Ship::id(void)const " (?id@Ship@@QBEIXZ) referenced in function "public: bool __thiscall Board::putShip(class Ship const &)" (?putShip@Board@@QAE_NABVShip@@@Z)
+Board.obj : error LNK2019: unresolved external symbol "public: struct Position __thiscall Ship::pos(void)const " (?pos@Ship@@QBE?AUPosition@@XZ) referenced in function "public: bool __thiscall Board::putShip(class Ship const &)" (?putShip@Board@@QAE_NABVShip@@@Z)
+Board.obj : error LNK2019: unresolved external symbol "public: char __thiscall Ship::dir(void)const " (?dir@Ship@@QBEDXZ) referenced in function "public: bool __thiscall Board::putShip(class Ship const &)" (?putShip@Board@@QAE_NABVShip@@@Z)
+Board.obj : error LNK2019: unresolved external symbol "public: unsigned int __thiscall Ship::size(void)const " (?size@Ship@@QBEIXZ) referenced in function "public: bool __thiscall Board::putShip(class Ship const &)" (?putShip@Board@@QAE_NABVShip@@@Z)
+C:\Users\utilizador\Desktop\Cpp\Exame _2017_2018\Debug\Exame _2017_2018.exe : fatal error LNK1120: 4 unresolved externals
