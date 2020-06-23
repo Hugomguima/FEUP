@@ -1,0 +1,1532 @@
+;;; -*- Mode: LISP; package:maxima; syntax:common-lisp; -*- 
+(in-package :maxima)
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%I1|
+ '((|MAXIMA|::|MSETQ|) |MAXIMA|::|$a|
+   ((|MAXIMA|::|$MATRIX|)
+    (#1=(|MAXIMA|::|MLIST|) 18. (#2=(|MAXIMA|::|MMINUS|) 1.) 1.)
+    (#1# 3. (#2# 5.) 4.) (#1# 6. 8. 29.)))) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%I1|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%O1|
+ '((|MAXIMA|::|$MATRIX| |MAXIMA|::|SIMP|)
+   ((|MAXIMA|::|MLIST| . #1=(|MAXIMA|::|SIMP|)) 18. -1. 1.)
+   ((|MAXIMA|::|MLIST| . #1#) 3. -5. 4.)
+   ((|MAXIMA|::|MLIST| . #1#) 6. 8. 29.))) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%O1|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%I2|
+ '((|MAXIMA|::|MSETQ|) |MAXIMA|::|$b|
+   ((|MAXIMA|::|$MATRIX|) (#1=(|MAXIMA|::|MLIST|) 10.) (#1# 2.)
+    (#1# ((|MAXIMA|::|MMINUS|) 1.))))) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%I2|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%O2|
+ '((|MAXIMA|::|$MATRIX| |MAXIMA|::|SIMP|)
+   ((|MAXIMA|::|MLIST| . #1=(|MAXIMA|::|SIMP|)) 10.)
+   ((|MAXIMA|::|MLIST| . #1#) 2.) ((|MAXIMA|::|MLIST| . #1#) -1.))) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%O2|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%I3|
+ '((|MAXIMA|::|MSETQ|) |MAXIMA|::|$ab|
+   ((|MAXIMA|::|$ADDCOL|) |MAXIMA|::|$a| |MAXIMA|::|$b|))) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%I3|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%O3|
+ '((|MAXIMA|::|$MATRIX| |MAXIMA|::|SIMP|)
+   ((|MAXIMA|::|MLIST| . #1=(|MAXIMA|::|SIMP|)) 18. -1. 1. 10.)
+   ((|MAXIMA|::|MLIST| . #1#) 3. -5. 4. 2.)
+   ((|MAXIMA|::|MLIST| . #1#) 6. 8. 29. -1.))) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%O3|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%I4|
+ '((|MAXIMA|::|MSETQ|) |MAXIMA|::|$ab|
+   ((|MAXIMA|::|$ECHELON|) |MAXIMA|::|$ab|))) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%I4|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%O4|
+ '((|MAXIMA|::|$MATRIX| |MAXIMA|::|SIMP|)
+   ((|MAXIMA|::|MLIST| . #1=(|MAXIMA|::|SIMP|)) 1.
+    (#2=(|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) -1. 18.) (#2# 1. 18.) (#2# 5. 9.))
+   ((|MAXIMA|::|MLIST| . #1#) 0. 1. (#2# -23. 29.) (#2# -2. 29.))
+   ((|MAXIMA|::|MLIST| . #1#) 0. 0. 1. (#2# -109. 1023.)))) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%O4|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%I5|
+ '((|MAXIMA|::|MSETQ|) |MAXIMA|::|$ab|
+   ((|MAXIMA|::|$ROWOP|) |MAXIMA|::|$ab| 2. 3.
+    ((|MAXIMA|::|MQUOTIENT|) ((|MAXIMA|::|MMINUS|) 23.) 29.)))) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%I5|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%O5|
+ '((|MAXIMA|::|$MATRIX| |MAXIMA|::|SIMP|)
+   ((|MAXIMA|::|MLIST| |MAXIMA|::|SIMP|) 1.
+    ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) -1. 18.)
+    ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) 1. 18.)
+    ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) 5. 9.))
+   ((|MAXIMA|::|MLIST| |MAXIMA|::|SIMP|) 0. 1. 0.
+    ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) -157. 1023.))
+   ((|MAXIMA|::|MLIST| |MAXIMA|::|SIMP|) 0. 0. 1.
+    ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) -109. 1023.)))) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%O5|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%I6|
+ '((|MAXIMA|::|MSETQ|) |MAXIMA|::|$ab|
+   ((|MAXIMA|::|$ROWOP|) |MAXIMA|::|$ab| 1. 3.
+    ((|MAXIMA|::|MQUOTIENT|) 1. 18.)))) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%I6|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%O6|
+ '((|MAXIMA|::|$MATRIX| |MAXIMA|::|SIMP|)
+   ((|MAXIMA|::|MLIST| |MAXIMA|::|SIMP|) 1.
+    ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) -1. 18.) 0.
+    ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) 10339. 18414.))
+   ((|MAXIMA|::|MLIST| |MAXIMA|::|SIMP|) 0. 1. 0.
+    ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) -157. 1023.))
+   ((|MAXIMA|::|MLIST| |MAXIMA|::|SIMP|) 0. 0. 1.
+    ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) -109. 1023.)))) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%O6|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%I7|
+ '((|MAXIMA|::|MSETQ|) |MAXIMA|::|$ab|
+   ((|MAXIMA|::|$ROWOP|) |MAXIMA|::|$ab| 1. 2.
+    ((|MAXIMA|::|MQUOTIENT|) ((|MAXIMA|::|MMINUS|) 1.) 18.)))) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%I7|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%O7|
+ '((|MAXIMA|::|$MATRIX| |MAXIMA|::|SIMP|)
+   ((|MAXIMA|::|MLIST| |MAXIMA|::|SIMP|) 1. 0. 0.
+    ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) 1697. 3069.))
+   ((|MAXIMA|::|MLIST| |MAXIMA|::|SIMP|) 0. 1. 0.
+    ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) -157. 1023.))
+   ((|MAXIMA|::|MLIST| |MAXIMA|::|SIMP|) 0. 0. 1.
+    ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) -109. 1023.)))) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%O7|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%I8| '((|MAXIMA|::|$FLOAT|) |MAXIMA|::|$%|)) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%I8|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%O8|
+ '((|MAXIMA|::|$MATRIX| |MAXIMA|::|SIMP|)
+   ((|MAXIMA|::|MLIST| . #1=(|MAXIMA|::|SIMP|)) 1.0d0 #2=0.0d0 #2#
+    0.5529488432714239d0)
+   ((|MAXIMA|::|MLIST| . #1#) #2# 1.0d0 #2# -0.15347018572825025d0)
+   ((|MAXIMA|::|MLIST| . #1#) #2# #2# 1.0d0 -0.10654936461388075d0))) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%O8|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%I9|
+ '((|MAXIMA|::|MSETQ|) |MAXIMA|::|$da|
+   ((|MAXIMA|::|MPLUS|) ((|MAXIMA|::|$ZEROMATRIX|) 3. 3.) 0.1d0))) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%I9|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%O9|
+ '((|MAXIMA|::|$MATRIX| |MAXIMA|::|SIMP|)
+   ((|MAXIMA|::|MLIST| . #1=(|MAXIMA|::|SIMP|)) #2=0.1d0 #2# #2#)
+   ((|MAXIMA|::|MLIST| . #1#) #2# #2# #2#)
+   ((|MAXIMA|::|MLIST| . #1#) #2# #2# #2#))) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%O9|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%I10|
+ '((|MAXIMA|::|MSETQ|) |MAXIMA|::|$db|
+   ((|MAXIMA|::|MPLUS|) ((|MAXIMA|::|$ZEROMATRIX|) 3. 1.) 0.1d0))) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%I10|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%O10|
+ '((|MAXIMA|::|$MATRIX| |MAXIMA|::|SIMP|)
+   ((|MAXIMA|::|MLIST| . #1=(|MAXIMA|::|SIMP|)) #2=0.1d0)
+   ((|MAXIMA|::|MLIST| . #1#) #2#) ((|MAXIMA|::|MLIST| . #1#) #2#))) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%O10|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%I11|
+ '((|MAXIMA|::|MSETQ|) |MAXIMA|::|$x| ((|MAXIMA|::|$COL|) |MAXIMA|::|$ab| 4.))) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%I11|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%O11|
+ '((|MAXIMA|::|$MATRIX| |MAXIMA|::|SIMP|)
+   ((|MAXIMA|::|MLIST| . #1=(|MAXIMA|::|SIMP|))
+    ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) 1697. 3069.))
+   ((|MAXIMA|::|MLIST| . #1#) ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) -157. 1023.))
+   ((|MAXIMA|::|MLIST| . #1#)
+    ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) -109. 1023.)))) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%O11|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%I12|
+ '((|MAXIMA|::|MSETQ|) |MAXIMA|::|$bp|
+   ((|MAXIMA|::|MPLUS|) |MAXIMA|::|$db|
+    ((|MAXIMA|::|MMINUS|)
+     ((|MAXIMA|::|MNCTIMES|) |MAXIMA|::|$da| |MAXIMA|::|$x|))))) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%I12|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%O12|
+ '((|MAXIMA|::|$MATRIX| |MAXIMA|::|SIMP|)
+   ((|MAXIMA|::|MLIST| . #1=(|MAXIMA|::|SIMP|)) 0.07070707070707072d0)
+   ((|MAXIMA|::|MLIST| . #1#) 0.07070707070707072d0)
+   ((|MAXIMA|::|MLIST| . #1#) 0.07070707070707072d0))) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%O12|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%I13|
+ '((|MAXIMA|::|MSETQ|) |MAXIMA|::|$ap|
+   ((|MAXIMA|::|$ADDCOL|) |MAXIMA|::|$ab| |MAXIMA|::|$bp|))) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%I13|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%O13|
+ '((|MAXIMA|::|$MATRIX| |MAXIMA|::|SIMP|)
+   ((|MAXIMA|::|MLIST| . #1=(|MAXIMA|::|SIMP|)) 1. 0. 0.
+    ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) 1697. 3069.) 0.07070707070707072d0)
+   ((|MAXIMA|::|MLIST| . #1#) 0. 1. 0.
+    ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) -157. 1023.) 0.07070707070707072d0)
+   ((|MAXIMA|::|MLIST| . #1#) 0. 0. 1.
+    ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) -109. 1023.) 0.07070707070707072d0))) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%O13|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%I14|
+ '((|MAXIMA|::|MSETQ|) |MAXIMA|::|$ap|
+   ((|MAXIMA|::|$ADDCOL|) |MAXIMA|::|$a| |MAXIMA|::|$bp|))) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%I14|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%O14|
+ '((|MAXIMA|::|$MATRIX| |MAXIMA|::|SIMP|)
+   ((|MAXIMA|::|MLIST| . #1=(|MAXIMA|::|SIMP|)) 18. -1. 1.
+    0.07070707070707072d0)
+   ((|MAXIMA|::|MLIST| . #1#) 3. -5. 4. 0.07070707070707072d0)
+   ((|MAXIMA|::|MLIST| . #1#) 6. 8. 29. 0.07070707070707072d0))) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%O14|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%I15|
+ '((|MAXIMA|::|MSETQ|) |MAXIMA|::|$ap|
+   ((|MAXIMA|::|$ECHELON|) |MAXIMA|::|$ap|))) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%I15|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%O15|
+ '((|MAXIMA|::|$MATRIX| |MAXIMA|::|SIMP|)
+   ((|MAXIMA|::|MLIST| . #1=(|MAXIMA|::|SIMP|)) 1.
+    (#2=(|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) -1. 18.) (#2# 1. 18.)
+    (#2# 7. 1782.))
+   ((|MAXIMA|::|MLIST| . #1#) 0. 1. (#2# -23. 29.) (#2# -35. 2871.))
+   ((|MAXIMA|::|MLIST| . #1#) 0. 0. 1. (#2# 427. 101277.)))) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%O15|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%I16|
+ '((|MAXIMA|::|MSETQ|) |MAXIMA|::|$ab|
+   ((|MAXIMA|::|$ROWOP|) |MAXIMA|::|$ab| 2. 3.
+    ((|MAXIMA|::|MQUOTIENT|) ((|MAXIMA|::|MMINUS|) 23.) 29.)))) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%I16|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%O16|
+ '((|MAXIMA|::|$MATRIX| |MAXIMA|::|SIMP|)
+   ((|MAXIMA|::|MLIST| |MAXIMA|::|SIMP|) 1. 0. 0.
+    ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) 1697. 3069.))
+   ((|MAXIMA|::|MLIST| |MAXIMA|::|SIMP|) 0. 1.
+    (#1=(|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) 23. 29.) (#1# -7060. 29667.))
+   ((|MAXIMA|::|MLIST| |MAXIMA|::|SIMP|) 0. 0. 1.
+    ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) -109. 1023.)))) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%O16|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%I17|
+ '((|MAXIMA|::|MSETQ|) |MAXIMA|::|$ap|
+   ((|MAXIMA|::|$ROWOP|) |MAXIMA|::|$ap| 2. 3.
+    ((|MAXIMA|::|MQUOTIENT|) ((|MAXIMA|::|MMINUS|) 23.) 29.)))) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%I17|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%O17|
+ '((|MAXIMA|::|$MATRIX| |MAXIMA|::|SIMP|)
+   ((|MAXIMA|::|MLIST| |MAXIMA|::|SIMP|) 1.
+    ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) -1. 18.)
+    ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) 1. 18.)
+    ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) 7. 1782.))
+   ((|MAXIMA|::|MLIST| |MAXIMA|::|SIMP|) 0. 1. 0.
+    ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) -896. 101277.))
+   ((|MAXIMA|::|MLIST| |MAXIMA|::|SIMP|) 0. 0. 1.
+    ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) 427. 101277.)))) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%O17|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%I18|
+ '((|MAXIMA|::|MSETQ|) |MAXIMA|::|$ap|
+   ((|MAXIMA|::|$ROWOP|) |MAXIMA|::|$ap| 1. 3.
+    ((|MAXIMA|::|MQUOTIENT|) 1. 18.)))) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%I18|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%O18|
+ '((|MAXIMA|::|$MATRIX| |MAXIMA|::|SIMP|)
+   ((|MAXIMA|::|MLIST| |MAXIMA|::|SIMP|) 1.
+    ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) -1. 18.) 0.
+    ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) 3367. 911493.))
+   ((|MAXIMA|::|MLIST| |MAXIMA|::|SIMP|) 0. 1. 0.
+    ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) -896. 101277.))
+   ((|MAXIMA|::|MLIST| |MAXIMA|::|SIMP|) 0. 0. 1.
+    ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) 427. 101277.)))) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%O18|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%I19|
+ '((|MAXIMA|::|MSETQ|) |MAXIMA|::|$ap|
+   ((|MAXIMA|::|$ROWOP|) |MAXIMA|::|$ap| 1. 2.
+    ((|MAXIMA|::|MQUOTIENT|) ((|MAXIMA|::|MMINUS|) 1.) 18.)))) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%I19|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%O19|
+ '((|MAXIMA|::|$MATRIX| |MAXIMA|::|SIMP|)
+   ((|MAXIMA|::|MLIST| |MAXIMA|::|SIMP|) 1. 0. 0.
+    ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) 973. 303831.))
+   ((|MAXIMA|::|MLIST| |MAXIMA|::|SIMP|) 0. 1. 0.
+    ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) -896. 101277.))
+   ((|MAXIMA|::|MLIST| |MAXIMA|::|SIMP|) 0. 0. 1.
+    ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) 427. 101277.)))) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%O19|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%I20| '((|MAXIMA|::|$FLOAT|) |MAXIMA|::|$%|)) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%I20|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$%O20|
+ '((|MAXIMA|::|$MATRIX| |MAXIMA|::|SIMP|)
+   ((|MAXIMA|::|MLIST| . #1=(|MAXIMA|::|SIMP|)) 1.0d0 #2=0.0d0 #2#
+    0.003202438197550612d0)
+   ((|MAXIMA|::|MLIST| . #1#) #2# 1.0d0 #2# -0.008847023509780108d0)
+   ((|MAXIMA|::|MLIST| . #1#) #2# #2# 1.0d0 0.004216159641379583d0))) 
+(|MAXIMA|::|ADDLABEL| '|MAXIMA|::|$%O20|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$a|
+ '((|MAXIMA|::|$MATRIX| |MAXIMA|::|SIMP|)
+   ((|MAXIMA|::|MLIST| . #1=(|MAXIMA|::|SIMP|)) 18. -1. 1.)
+   ((|MAXIMA|::|MLIST| . #1#) 3. -5. 4.)
+   ((|MAXIMA|::|MLIST| . #1#) 6. 8. 29.))) 
+(|MAXIMA|::|ADD2LNC| '|MAXIMA|::|$a| |MAXIMA|::|$VALUES|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$b|
+ '((|MAXIMA|::|$MATRIX| |MAXIMA|::|SIMP|)
+   ((|MAXIMA|::|MLIST| . #1=(|MAXIMA|::|SIMP|)) 10.)
+   ((|MAXIMA|::|MLIST| . #1#) 2.) ((|MAXIMA|::|MLIST| . #1#) -1.))) 
+(|MAXIMA|::|ADD2LNC| '|MAXIMA|::|$b| |MAXIMA|::|$VALUES|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$ab|
+ '((|MAXIMA|::|$MATRIX| |MAXIMA|::|SIMP|)
+   ((|MAXIMA|::|MLIST| |MAXIMA|::|SIMP|) 1. 0. 0.
+    ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) 1697. 3069.))
+   ((|MAXIMA|::|MLIST| |MAXIMA|::|SIMP|) 0. 1.
+    (#1=(|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) 23. 29.) (#1# -7060. 29667.))
+   ((|MAXIMA|::|MLIST| |MAXIMA|::|SIMP|) 0. 0. 1.
+    ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) -109. 1023.)))) 
+(|MAXIMA|::|ADD2LNC| '|MAXIMA|::|$ab| |MAXIMA|::|$VALUES|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$da|
+ '((|MAXIMA|::|$MATRIX| |MAXIMA|::|SIMP|)
+   ((|MAXIMA|::|MLIST| . #1=(|MAXIMA|::|SIMP|)) #2=0.1d0 #2# #2#)
+   ((|MAXIMA|::|MLIST| . #1#) #2# #2# #2#)
+   ((|MAXIMA|::|MLIST| . #1#) #2# #2# #2#))) 
+(|MAXIMA|::|ADD2LNC| '|MAXIMA|::|$da| |MAXIMA|::|$VALUES|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$db|
+ '((|MAXIMA|::|$MATRIX| |MAXIMA|::|SIMP|)
+   ((|MAXIMA|::|MLIST| . #1=(|MAXIMA|::|SIMP|)) #2=0.1d0)
+   ((|MAXIMA|::|MLIST| . #1#) #2#) ((|MAXIMA|::|MLIST| . #1#) #2#))) 
+(|MAXIMA|::|ADD2LNC| '|MAXIMA|::|$db| |MAXIMA|::|$VALUES|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$x|
+ '((|MAXIMA|::|$MATRIX| |MAXIMA|::|SIMP|)
+   ((|MAXIMA|::|MLIST| . #1=(|MAXIMA|::|SIMP|))
+    ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) 1697. 3069.))
+   ((|MAXIMA|::|MLIST| . #1#) ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) -157. 1023.))
+   ((|MAXIMA|::|MLIST| . #1#)
+    ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) -109. 1023.)))) 
+(|MAXIMA|::|ADD2LNC| '|MAXIMA|::|$x| |MAXIMA|::|$VALUES|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$bp|
+ '((|MAXIMA|::|$MATRIX| |MAXIMA|::|SIMP|)
+   ((|MAXIMA|::|MLIST| . #1=(|MAXIMA|::|SIMP|)) 0.07070707070707072d0)
+   ((|MAXIMA|::|MLIST| . #1#) 0.07070707070707072d0)
+   ((|MAXIMA|::|MLIST| . #1#) 0.07070707070707072d0))) 
+(|MAXIMA|::|ADD2LNC| '|MAXIMA|::|$bp| |MAXIMA|::|$VALUES|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$ap|
+ '((|MAXIMA|::|$MATRIX| |MAXIMA|::|SIMP|)
+   ((|MAXIMA|::|MLIST| |MAXIMA|::|SIMP|) 1. 0. 0.
+    ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) 973. 303831.))
+   ((|MAXIMA|::|MLIST| |MAXIMA|::|SIMP|) 0. 1. 0.
+    ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) -896. 101277.))
+   ((|MAXIMA|::|MLIST| |MAXIMA|::|SIMP|) 0. 0. 1.
+    ((|MAXIMA|::|RAT| |MAXIMA|::|SIMP|) 427. 101277.)))) 
+(|MAXIMA|::|ADD2LNC| '|MAXIMA|::|$ap| |MAXIMA|::|$VALUES|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$REQUIRE_INTEGER|
+ ((|COMMON-LISP|::|LAMBDA|)
+  ((|MAXIMA|::|MLIST|) |MAXIMA|::|$I| |MAXIMA|::|$POS| |MAXIMA|::|$FN|)
+  ((|MAXIMA|::|MCOND|
+    #1=(38. .
+        #2=("C:\\maxima-5.42.2\\share\\maxima\\5.42.2\\share\\linearalgebra\\linearalgebra.mac"
+            |MAXIMA|::|SRC| |MAXIMA|::|$REQUIRE_INTEGER| 37.)))
+   ((|MAXIMA|::|$INTEGERP| #1#) |MAXIMA|::|$I|) |COMMON-LISP|::|T|
+   |COMMON-LISP|::|T|
+   ((|MAXIMA|::|$ERROR| (39. . #2#)) "The" |MAXIMA|::|$POS| "argument to"
+    |MAXIMA|::|$FN| "must be an integer")))
+ |MAXIMA|::|MEXPR|) 
+(|MAXIMA|::|ADD2LNC|
+ '((|MAXIMA|::|$REQUIRE_INTEGER|) |MAXIMA|::|$I| |MAXIMA|::|$POS|
+   |MAXIMA|::|$FN|)
+ |MAXIMA|::|$FUNCTIONS|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$REQUIRE_SYMBOL|
+ ((|COMMON-LISP|::|LAMBDA|)
+  ((|MAXIMA|::|MLIST|) |MAXIMA|::|$X| |MAXIMA|::|$POS| |MAXIMA|::|$FN|)
+  ((|MAXIMA|::|MCOND|
+    #1=(42. .
+        #2=("C:\\maxima-5.42.2\\share\\maxima\\5.42.2\\share\\linearalgebra\\linearalgebra.mac"
+            |MAXIMA|::|SRC| |MAXIMA|::|$REQUIRE_SYMBOL| 41.)))
+   ((|MAXIMA|::|MOR| #1#) ((|MAXIMA|::|$SYMBOLP| #1#) |MAXIMA|::|$X|)
+    ((|MAXIMA|::|$SUBVARP| #1#) |MAXIMA|::|$X|))
+   |COMMON-LISP|::|T| |COMMON-LISP|::|T|
+   ((|MAXIMA|::|$ERROR| (43. . #2#)) "The" |MAXIMA|::|$POS| "argument to"
+    |MAXIMA|::|$FN| "must be a symbol")))
+ |MAXIMA|::|MEXPR|) 
+(|MAXIMA|::|ADD2LNC|
+ '((|MAXIMA|::|$REQUIRE_SYMBOL|) |MAXIMA|::|$X| |MAXIMA|::|$POS|
+   |MAXIMA|::|$FN|)
+ |MAXIMA|::|$FUNCTIONS|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$REQUEST_RATIONAL_MATRIX|
+ ((|COMMON-LISP|::|LAMBDA|)
+  ((|MAXIMA|::|MLIST|) |MAXIMA|::|$M| |MAXIMA|::|$POS| |MAXIMA|::|$FN|)
+  ((|MAXIMA|::|MCOND|
+    #1=(46. .
+        #2=("C:\\maxima-5.42.2\\share\\maxima\\5.42.2\\share\\linearalgebra\\linearalgebra.mac"
+            |MAXIMA|::|SRC| |MAXIMA|::|$REQUEST_RATIONAL_MATRIX| 45.)))
+   ((|MAXIMA|::|$EVERY| #1#) ((|MAXIMA|::|MQUOTE| #1#) |MAXIMA|::|$IDENTITY|)
+    ((|MAXIMA|::|$MAP| #1#)
+     ((|COMMON-LISP|::|LAMBDA| #1#) ((|MAXIMA|::|MLIST| #1#) |MAXIMA|::|$S|)
+      ((|MAXIMA|::|$EVERY| #1#) ((|MAXIMA|::|MQUOTE| #1#) |MAXIMA|::|$RATNUMP|)
+       |MAXIMA|::|$S|))
+     ((|MAXIMA|::|$ARGS| #1#) |MAXIMA|::|$M|)))
+   |COMMON-LISP|::|T| |COMMON-LISP|::|T|
+   ((|MAXIMA|::|$PRINT| (47. . #2#))
+    "Some entries in the matrix are not rational numbers. The result might be wrong.")))
+ |MAXIMA|::|MEXPR|) 
+(|MAXIMA|::|ADD2LNC|
+ '((|MAXIMA|::|$REQUEST_RATIONAL_MATRIX|) |MAXIMA|::|$M| |MAXIMA|::|$POS|
+   |MAXIMA|::|$FN|)
+ |MAXIMA|::|$FUNCTIONS|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$DOTPRODUCT|
+ ((|COMMON-LISP|::|LAMBDA|) ((|MAXIMA|::|MLIST|) |MAXIMA|::|$A| |MAXIMA|::|$B|)
+  ((|MAXIMA|::|MPROG|
+    #1=(49. .
+        #2=("C:\\maxima-5.42.2\\share\\maxima\\5.42.2\\share\\linearalgebra\\linearalgebra.mac"
+            |MAXIMA|::|SRC| |MAXIMA|::|$DOTPRODUCT| 49.)))
+   ((|MAXIMA|::|MLIST| #1#)
+    ((|MAXIMA|::|MSETQ| #1#) |MAXIMA|::|$SCALARMATRIXP| |COMMON-LISP|::|T|))
+   ((|MAXIMA|::|$REQUIRE_MATRIX| (50. . #2#)) |MAXIMA|::|$A| "first"
+    "dotproduct")
+   ((|MAXIMA|::|$REQUIRE_MATRIX| (51. . #2#)) |MAXIMA|::|$B| "second"
+    "dotproduct")
+   ((|MAXIMA|::|MCOND| #3=(52. . #2#))
+    ((|MAXIMA|::|MOR| #3#)
+     ((|MAXIMA|::|MNOTEQUAL| #3#)
+      ((|MAXIMA|::|$MATRIX_SIZE| #3#) |MAXIMA|::|$A|)
+      ((|MAXIMA|::|$MATRIX_SIZE| #3#) |MAXIMA|::|$B|))
+     ((|MAXIMA|::|MNOTEQUAL| #3#)
+      ((|MAXIMA|::|$SECOND| #3#)
+       ((|MAXIMA|::|$MATRIX_SIZE| #3#) |MAXIMA|::|$A|))
+      1.))
+    ((|MAXIMA|::|$ERROR| (53. . #2#))
+     "Arguments to dotproduct must be vectors with the same size")
+    |COMMON-LISP|::|T| |MAXIMA|::|$FALSE|)
+   ((|MAXIMA|::|MNCTIMES| #4=(54. . #2#))
+    ((|MAXIMA|::|$CTRANSPOSE| #4#) |MAXIMA|::|$A|) |MAXIMA|::|$B|)))
+ |MAXIMA|::|MEXPR|) 
+(|MAXIMA|::|ADD2LNC| '((|MAXIMA|::|$DOTPRODUCT|) |MAXIMA|::|$A| |MAXIMA|::|$B|)
+ |MAXIMA|::|$FUNCTIONS|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$NULLSPACE|
+ ((|COMMON-LISP|::|LAMBDA|) ((|MAXIMA|::|MLIST|) |MAXIMA|::|$M|)
+  ((|MAXIMA|::|MPROG|
+    #1=(56. .
+        #2=("C:\\maxima-5.42.2\\share\\maxima\\5.42.2\\share\\linearalgebra\\linearalgebra.mac"
+            |MAXIMA|::|SRC| |MAXIMA|::|$NULLSPACE| 56.)))
+   ((|MAXIMA|::|MLIST| #1#) |MAXIMA|::|$NR| |MAXIMA|::|$NC|
+    ((|MAXIMA|::|MSETQ| #1#) |MAXIMA|::|$ACC| ((|MAXIMA|::|$SET| #1#)))
+    ((|MAXIMA|::|MSETQ| #1#) |MAXIMA|::|$PROVISO| |COMMON-LISP|::|T|)
+    |MAXIMA|::|$PV|
+    ((|MAXIMA|::|MSETQ| #1#) |MAXIMA|::|$PREDERROR| |COMMON-LISP|::|NIL|))
+   ((|MAXIMA|::|$REQUIRE_UNBLOCKEDMATRIX| (58. . #2#)) |MAXIMA|::|$M| "first"
+    "nullspace")
+   ((|MAXIMA|::|MSETQ| #3=(61. . #2#))
+    ((|MAXIMA|::|MLIST| #3#) |MAXIMA|::|$NC| |MAXIMA|::|$NR|)
+    ((|MAXIMA|::|$MATRIX_SIZE| #3#) |MAXIMA|::|$M|))
+   ((|MAXIMA|::|MSETQ| #4=(62. . #2#)) |MAXIMA|::|$M|
+    ((|MAXIMA|::|$TRIANGULARIZE| #4#)
+     ((|MAXIMA|::|$ADDCOL| #4#) ((|MAXIMA|::|$TRANSPOSE| #4#) |MAXIMA|::|$M|)
+      ((|MAXIMA|::|$IDENT| #4#) |MAXIMA|::|$NR|))))
+   ((|MAXIMA|::|MDO| #5=(63. . #2#)) |MAXIMA|::|$ROW| 1. |COMMON-LISP|::|NIL|
+    |COMMON-LISP|::|NIL| |MAXIMA|::|$NR| |COMMON-LISP|::|NIL|
+    ((|MAXIMA|::|MPROGN| #5#)
+     ((|MAXIMA|::|MSETQ| #6=(64. . #2#)) |MAXIMA|::|$PV|
+      ((|MAXIMA|::|$LOCATE_MATRIX_ENTRY| #6#) |MAXIMA|::|$M| |MAXIMA|::|$ROW|
+       1. |MAXIMA|::|$ROW| |MAXIMA|::|$NC|
+       ((|COMMON-LISP|::|LAMBDA| #6#) ((|MAXIMA|::|MLIST| #6#) |MAXIMA|::|$S|)
+        ((|MAXIMA|::|MNOTEQUAL| #6#)
+         ((|MAXIMA|::|$COMPARE| #6#) |MAXIMA|::|$S| 0.) "="))
+       ((|MAXIMA|::|MQUOTE| #6#) |MAXIMA|::|$BOOL|)))
+     ((|MAXIMA|::|MCOND| #7=(66. . #2#))
+      ((|MAXIMA|::|MNOT| #7#) ((|MAXIMA|::|$LISTP| #7#) |MAXIMA|::|$PV|))
+      ((|MAXIMA|::|MSETQ| #8=(67. . #2#)) |MAXIMA|::|$ACC|
+       ((|MAXIMA|::|$ADJOIN| #8#)
+        ((|MAXIMA|::|$TRANSPOSE| #8#)
+         ((|MAXIMA|::|$GENMATRIX| #8#)
+          ((|COMMON-LISP|::|LAMBDA| #8#)
+           ((|MAXIMA|::|MLIST| #8#) |MAXIMA|::|$II| |MAXIMA|::|$J|)
+           ((|MAXIMA|::|$M| |MAXIMA|::|ARRAY| #8#) |MAXIMA|::|$ROW|
+            ((|MAXIMA|::|MPLUS| #8#) |MAXIMA|::|$J| |MAXIMA|::|$NC|)))
+          1. |MAXIMA|::|$NR|))
+        |MAXIMA|::|$ACC|))
+      |COMMON-LISP|::|T|
+      ((|MAXIMA|::|MSETQ| #9=(69. . #2#)) |MAXIMA|::|$PROVISO|
+       ((|MAXIMA|::|MAND| #9#) |MAXIMA|::|$PROVISO|
+        ((|MAXIMA|::|$NOTEQUAL| #9#)
+         ((|MAXIMA|::|$M| |MAXIMA|::|ARRAY| #9#) |MAXIMA|::|$ROW|
+          ((|MAXIMA|::|$SECOND| #9#) |MAXIMA|::|$PV|))
+         0.))))))
+   ((|MAXIMA|::|MCOND| #10=(71. . #2#))
+    ((|MAXIMA|::|MNOTEQUAL| #10#) |MAXIMA|::|$PROVISO| |COMMON-LISP|::|T|)
+    ((|MAXIMA|::|MPROGN| #10#)
+     ((|MAXIMA|::|$PRINT| (72. . #2#)) "Proviso: " |MAXIMA|::|$PROVISO|)
+     ((|MAXIMA|::|$PUT| #11=(73. . #2#))
+      ((|MAXIMA|::|$CONCAT| #11#) |MAXIMA|::|$OUTCHAR| |MAXIMA|::|$LINENUM|)
+      |MAXIMA|::|$PROVISO| ((|MAXIMA|::|MQUOTE| #11#) |MAXIMA|::|$PROVISO|)))
+    |COMMON-LISP|::|T| |MAXIMA|::|$FALSE|)
+   ((|MAXIMA|::|$SUBSTITUTE| #12=(75. . #2#))
+    ((|MAXIMA|::|MQUOTE| #12#) |MAXIMA|::|$SPAN|)
+    ((|MAXIMA|::|MQUOTE| #12#) |MAXIMA|::|$SET|)
+    ((|MAXIMA|::|$SUBSET| #12#) |MAXIMA|::|$ACC|
+     ((|COMMON-LISP|::|LAMBDA| #12#) ((|MAXIMA|::|MLIST| #12#) |MAXIMA|::|$S|)
+      ((|MAXIMA|::|$SOME| #12#)
+       ((|COMMON-LISP|::|LAMBDA| #12#)
+        ((|MAXIMA|::|MLIST| #12#) |MAXIMA|::|$X|)
+        ((|MAXIMA|::|MNOTEQUAL| #12#)
+         ((|MAXIMA|::|$COMPARE| #12#) |MAXIMA|::|$X| 0.) "="))
+       |MAXIMA|::|$S|))))))
+ |MAXIMA|::|MEXPR|) 
+(|MAXIMA|::|ADD2LNC| '((|MAXIMA|::|$NULLSPACE|) |MAXIMA|::|$M|)
+ |MAXIMA|::|$FUNCTIONS|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$NULLITY|
+ ((|COMMON-LISP|::|LAMBDA|) ((|MAXIMA|::|MLIST|) |MAXIMA|::|$M|)
+  ((|MAXIMA|::|$LENGTH|
+    #1=(78.
+        "C:\\maxima-5.42.2\\share\\maxima\\5.42.2\\share\\linearalgebra\\linearalgebra.mac"
+        |MAXIMA|::|SRC| |MAXIMA|::|$NULLITY| 78.))
+   ((|MAXIMA|::|$NULLSPACE| #1#) |MAXIMA|::|$M|)))
+ |MAXIMA|::|MEXPR|) 
+(|MAXIMA|::|ADD2LNC| '((|MAXIMA|::|$NULLITY|) |MAXIMA|::|$M|)
+ |MAXIMA|::|$FUNCTIONS|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$ORTHOGONAL_COMPLEMENT| |COMMON-LISP|::|T|
+ |MAXIMA|::|MLEXPRP|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$ORTHOGONAL_COMPLEMENT|
+ ((|COMMON-LISP|::|LAMBDA|)
+  ((|MAXIMA|::|MLIST|)
+   ((|MAXIMA|::|MLIST|
+     #1=(80. .
+         #2=("C:\\maxima-5.42.2\\share\\maxima\\5.42.2\\share\\linearalgebra\\linearalgebra.mac"
+             |MAXIMA|::|SRC| |MAXIMA|::|$ORTHOGONAL_COMPLEMENT| 80.)))
+    |MAXIMA|::|$V|))
+  ((|MAXIMA|::|MPROG| #1#) ((|MAXIMA|::|MLIST| #1#) |MAXIMA|::|$SZ|)
+   ((|MAXIMA|::|$REQUIRE_UNBLOCKEDMATRIX| #3=(81. . #2#))
+    ((|MAXIMA|::|$FIRST| #3#) |MAXIMA|::|$V|) " " "orthogonal_complement")
+   ((|MAXIMA|::|MSETQ| #4=(82. . #2#)) |MAXIMA|::|$SZ|
+    ((|MAXIMA|::|$MATRIX_SIZE| #4#) ((|MAXIMA|::|$FIRST| #4#) |MAXIMA|::|$V|)))
+   ((|MAXIMA|::|MCOND| #5=(83. . #2#))
+    ((|MAXIMA|::|MNOTEQUAL| #5#) ((|MAXIMA|::|$SECOND| #5#) |MAXIMA|::|$SZ|)
+     1.)
+    ((|MAXIMA|::|$ERROR| #5#) "Each argument must be a column vector")
+    |COMMON-LISP|::|T| |MAXIMA|::|$FALSE|)
+   ((|MAXIMA|::|MDOIN| #6=(84. . #2#)) |MAXIMA|::|$VI| |MAXIMA|::|$V|
+    |COMMON-LISP|::|NIL| |COMMON-LISP|::|NIL| |COMMON-LISP|::|NIL|
+    |COMMON-LISP|::|NIL|
+    ((|MAXIMA|::|MPROGN| #6#)
+     ((|MAXIMA|::|$REQUIRE_MATRIX| (85. . #2#)) |MAXIMA|::|$VI| " "
+      "orthogonal_complement")
+     ((|MAXIMA|::|MCOND| #7=(86. . #2#))
+      ((|MAXIMA|::|MNOTEQUAL| #7#)
+       ((|MAXIMA|::|$MATRIX_SIZE| #7#) |MAXIMA|::|$VI|) |MAXIMA|::|$SZ|)
+      ((|MAXIMA|::|$ERROR| #7#) "Each vector must have the same dimension")
+      |COMMON-LISP|::|T| |MAXIMA|::|$FALSE|)))
+   ((|MAXIMA|::|$NULLSPACE| #8=(87. . #2#))
+    ((|MAXIMA|::|$TRANSPOSE| #8#)
+     ((|MAXIMA|::|$RREDUCE| #8#) ((|MAXIMA|::|MQUOTE| #8#) |MAXIMA|::|$ADDCOL|)
+      |MAXIMA|::|$V|)))))
+ |MAXIMA|::|MEXPR|) 
+(|MAXIMA|::|ADD2LNC|
+ '((|MAXIMA|::|$ORTHOGONAL_COMPLEMENT|)
+   ((|MAXIMA|::|MLIST|
+     (80.
+      "C:\\maxima-5.42.2\\share\\maxima\\5.42.2\\share\\linearalgebra\\linearalgebra.mac"
+      |MAXIMA|::|SRC| |MAXIMA|::|$ORTHOGONAL_COMPLEMENT| 80.))
+    |MAXIMA|::|$V|))
+ |MAXIMA|::|$FUNCTIONS|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$LOCATE_MATRIX_ENTRY|
+ ((|COMMON-LISP|::|LAMBDA|)
+  ((|MAXIMA|::|MLIST|) |MAXIMA|::|$M| |MAXIMA|::|$R1| |MAXIMA|::|$C1|
+   |MAXIMA|::|$R2| |MAXIMA|::|$C2| |MAXIMA|::|$FN| |MAXIMA|::|$REL|)
+  ((|MAXIMA|::|MPROG|
+    #1=(89. .
+        #2=("C:\\maxima-5.42.2\\share\\maxima\\5.42.2\\share\\linearalgebra\\linearalgebra.mac"
+            |MAXIMA|::|SRC| |MAXIMA|::|$LOCATE_MATRIX_ENTRY| 89.)))
+   ((|MAXIMA|::|MLIST| #1#) |MAXIMA|::|$IM| |MAXIMA|::|$CM| |MAXIMA|::|$MF|
+    |MAXIMA|::|$E| |MAXIMA|::|$NR| |MAXIMA|::|$NC|
+    ((|MAXIMA|::|MSETQ| (90. . #2#)) |MAXIMA|::|$OK| |COMMON-LISP|::|T|)
+    |MAXIMA|::|$FREL|)
+   ((|MAXIMA|::|$REQUIRE_UNBLOCKEDMATRIX| (91. . #2#)) |MAXIMA|::|$M| "first"
+    "locate_matrix_entry")
+   ((|MAXIMA|::|$REQUIRE_INTEGER| (92. . #2#)) |MAXIMA|::|$R1| "second"
+    "locate_matrix_entry")
+   ((|MAXIMA|::|$REQUIRE_INTEGER| (93. . #2#)) |MAXIMA|::|$R2| "second"
+    "locate_matrix_entry")
+   ((|MAXIMA|::|$REQUIRE_INTEGER| (94. . #2#)) |MAXIMA|::|$C1| "third"
+    "locate_matrix_entry")
+   ((|MAXIMA|::|$REQUIRE_INTEGER| (95. . #2#)) |MAXIMA|::|$R2| "fourth"
+    "locate_matrix_entry")
+   ((|MAXIMA|::|MSETQ| #3=(96. . #2#)) |MAXIMA|::|$NR|
+    ((|MAXIMA|::|$LENGTH| #3#) |MAXIMA|::|$M|))
+   ((|MAXIMA|::|MSETQ| #4=(97. . #2#)) |MAXIMA|::|$NC|
+    ((|MAXIMA|::|$LENGTH| #4#) ((|MAXIMA|::|$FIRST| #4#) |MAXIMA|::|$M|)))
+   ((|MAXIMA|::|MCOND| #5=(99. . #2#))
+    ((|MAXIMA|::|MOR| #5#)
+     ((|MAXIMA|::|MGREATERP| #5#) |MAXIMA|::|$C1| |MAXIMA|::|$C2|)
+     ((|MAXIMA|::|MGREATERP| #5#) |MAXIMA|::|$R1| |MAXIMA|::|$R2|)
+     ((|MAXIMA|::|MLESSP| #5#) |MAXIMA|::|$R1| 1.)
+     ((|MAXIMA|::|MLESSP| #5#) |MAXIMA|::|$C1| 1.)
+     ((|MAXIMA|::|MLESSP| #5#) |MAXIMA|::|$R2| 1.)
+     ((|MAXIMA|::|MLESSP| #5#) |MAXIMA|::|$C2| 1.)
+     ((|MAXIMA|::|MGREATERP| #6=(100. . #2#)) |MAXIMA|::|$C1| |MAXIMA|::|$NC|)
+     ((|MAXIMA|::|MGREATERP| #6#) |MAXIMA|::|$C2| |MAXIMA|::|$NC|)
+     ((|MAXIMA|::|MGREATERP| #6#) |MAXIMA|::|$R1| |MAXIMA|::|$NR|)
+     ((|MAXIMA|::|MGREATERP| #6#) |MAXIMA|::|$R2| |MAXIMA|::|$NR|))
+    ((|MAXIMA|::|$ERROR| #6#) "Bogus submatrix") |COMMON-LISP|::|T|
+    |MAXIMA|::|$FALSE|)
+   ((|MAXIMA|::|MSETQ| #7=(102. . #2#)) |MAXIMA|::|$MF|
+    ((|MAXIMA|::|MCOND| #7#)
+     ((|MAXIMA|::|MEQUAL| #7#) |MAXIMA|::|$REL|
+      ((|MAXIMA|::|MQUOTE| #7#) |MAXIMA|::|$MIN|))
+     ((|MAXIMA|::|MQUOTE| #7#) |MAXIMA|::|$INF|) |COMMON-LISP|::|T|
+     ((|MAXIMA|::|MCOND| #7#)
+      ((|MAXIMA|::|MEQUAL| #7#) |MAXIMA|::|$REL|
+       ((|MAXIMA|::|MQUOTE| #7#) |MAXIMA|::|$MAX|))
+      ((|MAXIMA|::|MQUOTE| #7#) |MAXIMA|::|$MINF|) |COMMON-LISP|::|T| 0.)))
+   ((|MAXIMA|::|MSETQ| #8=(103. . #2#)) |MAXIMA|::|$FREL|
+    ((|MAXIMA|::|MCOND| #8#)
+     ((|MAXIMA|::|MEQUAL| #8#) |MAXIMA|::|$REL|
+      ((|MAXIMA|::|MQUOTE| #8#) |MAXIMA|::|$MAX|))
+     ">" |COMMON-LISP|::|T|
+     ((|MAXIMA|::|MCOND| #8#)
+      ((|MAXIMA|::|MEQUAL| #8#) |MAXIMA|::|$REL|
+       ((|MAXIMA|::|MQUOTE| #8#) |MAXIMA|::|$MIN|))
+      "<" |COMMON-LISP|::|T|
+      ((|MAXIMA|::|MCOND| #8#)
+       ((|MAXIMA|::|MEQUAL| #8#) |MAXIMA|::|$REL|
+        ((|MAXIMA|::|MQUOTE| #9=(104. . #2#)) |MAXIMA|::|$BOOL|))
+       ((|COMMON-LISP|::|LAMBDA| #9#)
+        ((|MAXIMA|::|MLIST| #9#) |MAXIMA|::|$X| |MAXIMA|::|$Y|) |MAXIMA|::|$X|)
+       |COMMON-LISP|::|T|
+       ((|MAXIMA|::|$ERROR| #9#) "Last argument must be 'max' or 'min'")))))
+   ((|MAXIMA|::|MSETQ| (105. . #2#)) |MAXIMA|::|$IM| 0.)
+   ((|MAXIMA|::|MSETQ| (106. . #2#)) |MAXIMA|::|$CM| 0.)
+   ((|MAXIMA|::|MDO| #10=(107. . #2#)) |MAXIMA|::|$I| |MAXIMA|::|$R1|
+    |COMMON-LISP|::|NIL| |COMMON-LISP|::|NIL| |MAXIMA|::|$R2|
+    ((|MAXIMA|::|MNOT| #10#) |MAXIMA|::|$OK|)
+    ((|MAXIMA|::|MDO| #11=(108. . #2#)) |MAXIMA|::|$J| |MAXIMA|::|$C1|
+     |COMMON-LISP|::|NIL| |COMMON-LISP|::|NIL| |MAXIMA|::|$C2|
+     ((|MAXIMA|::|MNOT| #11#) |MAXIMA|::|$OK|)
+     ((|MAXIMA|::|MPROGN| #11#)
+      ((|MAXIMA|::|MSETQ| #12=(109. . #2#)) |MAXIMA|::|$E|
+       ((|MAXIMA|::|$APPLY| #12#) |MAXIMA|::|$FN|
+        ((|MAXIMA|::|MLIST| #12#)
+         ((|MAXIMA|::|$M| |MAXIMA|::|ARRAY| #12#) |MAXIMA|::|$I|
+          |MAXIMA|::|$J|))))
+      ((|MAXIMA|::|MCOND| #13=(110. . #2#))
+       ((|MAXIMA|::|$IS| #13#)
+        ((|MAXIMA|::|$APPLY| #13#) |MAXIMA|::|$FREL|
+         ((|MAXIMA|::|MLIST| #13#) |MAXIMA|::|$E| |MAXIMA|::|$MF|)))
+       ((|MAXIMA|::|MPROGN| #13#)
+        ((|MAXIMA|::|MSETQ| (111. . #2#)) |MAXIMA|::|$IM| |MAXIMA|::|$I|)
+        ((|MAXIMA|::|MSETQ| (112. . #2#)) |MAXIMA|::|$CM| |MAXIMA|::|$J|)
+        ((|MAXIMA|::|MCOND| #14=(113. . #2#))
+         ((|MAXIMA|::|MEQUAL| #14#) |MAXIMA|::|$REL|
+          ((|MAXIMA|::|MQUOTE| #14#) |MAXIMA|::|$BOOL|))
+         ((|MAXIMA|::|MSETQ| #14#) |MAXIMA|::|$OK| |COMMON-LISP|::|NIL|)
+         |COMMON-LISP|::|T| |MAXIMA|::|$FALSE|)
+        ((|MAXIMA|::|MSETQ| (114. . #2#)) |MAXIMA|::|$MF| |MAXIMA|::|$E|))
+       |COMMON-LISP|::|T| |MAXIMA|::|$FALSE|))))
+   ((|MAXIMA|::|MCOND| #15=(115. . #2#))
+    ((|MAXIMA|::|MAND| #15#) ((|MAXIMA|::|MGREATERP| #15#) |MAXIMA|::|$IM| 0.)
+     ((|MAXIMA|::|MGREATERP| #15#) |MAXIMA|::|$CM| 0.))
+    ((|MAXIMA|::|MLIST| #15#) |MAXIMA|::|$IM| |MAXIMA|::|$CM|)
+    |COMMON-LISP|::|T| |COMMON-LISP|::|NIL|)))
+ |MAXIMA|::|MEXPR|) 
+(|MAXIMA|::|ADD2LNC|
+ '((|MAXIMA|::|$LOCATE_MATRIX_ENTRY|) |MAXIMA|::|$M| |MAXIMA|::|$R1|
+   |MAXIMA|::|$C1| |MAXIMA|::|$R2| |MAXIMA|::|$C2| |MAXIMA|::|$FN|
+   |MAXIMA|::|$REL|)
+ |MAXIMA|::|$FUNCTIONS|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$COLUMNSPACE|
+ ((|COMMON-LISP|::|LAMBDA|) ((|MAXIMA|::|MLIST|) |MAXIMA|::|$A|)
+  ((|MAXIMA|::|MPROG|
+    #1=(117. .
+        #2=("C:\\maxima-5.42.2\\share\\maxima\\5.42.2\\share\\linearalgebra\\linearalgebra.mac"
+            |MAXIMA|::|SRC| |MAXIMA|::|$COLUMNSPACE| 117.)))
+   ((|MAXIMA|::|MLIST| #1#) |MAXIMA|::|$M| |MAXIMA|::|$NC| |MAXIMA|::|$NR|
+    ((|MAXIMA|::|MSETQ| #1#) |MAXIMA|::|$CS| ((|MAXIMA|::|$SET| #1#)))
+    |MAXIMA|::|$POS| |MAXIMA|::|$X|
+    ((|MAXIMA|::|MSETQ| #1#) |MAXIMA|::|$PROVISO| |COMMON-LISP|::|T|)
+    ((|MAXIMA|::|MSETQ| #1#) |MAXIMA|::|$ALGEBRAIC| |COMMON-LISP|::|T|)
+    |MAXIMA|::|$C_MIN|)
+   ((|MAXIMA|::|$REQUIRE_UNBLOCKEDMATRIX| (118. . #2#)) |MAXIMA|::|$A| "first"
+    "columnspace")
+   ((|MAXIMA|::|MSETQ| #3=(119. . #2#))
+    ((|MAXIMA|::|MLIST| #3#) |MAXIMA|::|$NR| |MAXIMA|::|$NC|)
+    ((|MAXIMA|::|$MATRIX_SIZE| #3#) |MAXIMA|::|$A|))
+   ((|MAXIMA|::|MCOND| #4=(120. . #2#))
+    ((|MAXIMA|::|MOR| #4#) ((|MAXIMA|::|MEQUAL| #4#) |MAXIMA|::|$NC| 0.)
+     ((|MAXIMA|::|MEQUAL| #4#) |MAXIMA|::|$NR| 0.))
+    ((|MAXIMA|::|$ERROR| (121. . #2#))
+     "The argument to 'columnspace' must be a matrix with one or more rows and columns")
+    |COMMON-LISP|::|T| |MAXIMA|::|$FALSE|)
+   ((|MAXIMA|::|MSETQ| #5=(123. . #2#)) |MAXIMA|::|$M|
+    ((|MAXIMA|::|$TRIANGULARIZE| #5#) |MAXIMA|::|$A|))
+   ((|MAXIMA|::|MSETQ| (124. . #2#)) |MAXIMA|::|$C_MIN| 1.)
+   ((|MAXIMA|::|MDO| #6=(125. . #2#)) |MAXIMA|::|$I| 1. |COMMON-LISP|::|NIL|
+    |COMMON-LISP|::|NIL| |MAXIMA|::|$NR|
+    ((|MAXIMA|::|MNOT| #6#)
+     ((|MAXIMA|::|MLEQP| #6#) |MAXIMA|::|$C_MIN| |MAXIMA|::|$NC|))
+    ((|MAXIMA|::|MCOND| #7=(126. . #2#))
+     ((|MAXIMA|::|$LISTP| #7#)
+      ((|MAXIMA|::|MSETQ| #7#) |MAXIMA|::|$POS|
+       ((|MAXIMA|::|$LOCATE_MATRIX_ENTRY| #7#) |MAXIMA|::|$M| |MAXIMA|::|$I|
+        |MAXIMA|::|$C_MIN| |MAXIMA|::|$I| |MAXIMA|::|$NC|
+        ((|COMMON-LISP|::|LAMBDA| #7#) ((|MAXIMA|::|MLIST| #7#) |MAXIMA|::|$X|)
+         ((|MAXIMA|::|MNOTEQUAL| #7#) |MAXIMA|::|$X| 0.))
+        ((|MAXIMA|::|MQUOTE| #7#) |MAXIMA|::|$BOOL|))))
+     ((|MAXIMA|::|MPROGN| #7#)
+      ((|MAXIMA|::|MSETQ| #8=(127. . #2#)) |MAXIMA|::|$C_MIN|
+       ((|MAXIMA|::|MPLUS| #8#) ((|MAXIMA|::|$SECOND| #8#) |MAXIMA|::|$POS|)
+        1.))
+      ((|MAXIMA|::|MCOND| #9=(128. . #2#))
+       ((|MAXIMA|::|MEQUAL| #9#)
+        ((|MAXIMA|::|$CONSTANTP| #9#)
+         ((|MAXIMA|::|MSETQ| #9#) |MAXIMA|::|$X|
+          ((|MAXIMA|::|$PART| #9#)
+           ((|MAXIMA|::|$PART| #9#) |MAXIMA|::|$M|
+            ((|MAXIMA|::|$FIRST| #9#) |MAXIMA|::|$POS|))
+           ((|MAXIMA|::|$SECOND| #9#) |MAXIMA|::|$POS|))))
+        |COMMON-LISP|::|NIL|)
+       ((|MAXIMA|::|MSETQ| #10=(129. . #2#)) |MAXIMA|::|$PROVISO|
+        ((|MAXIMA|::|MAND| #10#) |MAXIMA|::|$PROVISO|
+         ((|MAXIMA|::|$NOTEQUAL| #10#)
+          ((|MAXIMA|::|$RATSIMP| #10#) |MAXIMA|::|$X|) 0.)))
+       |COMMON-LISP|::|T| |MAXIMA|::|$FALSE|)
+      ((|MAXIMA|::|MSETQ| #11=(130. . #2#)) |MAXIMA|::|$CS|
+       ((|MAXIMA|::|$ADJOIN| #11#)
+        ((|MAXIMA|::|$COL| #11#) |MAXIMA|::|$A|
+         ((|MAXIMA|::|$SECOND| #11#) |MAXIMA|::|$POS|))
+        |MAXIMA|::|$CS|)))
+     |COMMON-LISP|::|T| |MAXIMA|::|$FALSE|))
+   ((|MAXIMA|::|MCOND| #12=(132. . #2#))
+    ((|MAXIMA|::|MNOTEQUAL| #12#) |MAXIMA|::|$PROVISO| |COMMON-LISP|::|T|)
+    ((|MAXIMA|::|MPROGN| #12#)
+     ((|MAXIMA|::|$PRINT| (133. . #2#)) "Proviso: " |MAXIMA|::|$PROVISO|)
+     ((|MAXIMA|::|$PUT| #13=(134. . #2#))
+      ((|MAXIMA|::|$CONCAT| #13#) |MAXIMA|::|$OUTCHAR| |MAXIMA|::|$LINENUM|)
+      |MAXIMA|::|$PROVISO| ((|MAXIMA|::|MQUOTE| #13#) |MAXIMA|::|$PROVISO|)))
+    |COMMON-LISP|::|T| |MAXIMA|::|$FALSE|)
+   ((|MAXIMA|::|$FUNMAKE| #14=(135. . #2#))
+    ((|MAXIMA|::|MQUOTE| #14#) |MAXIMA|::|$SPAN|)
+    ((|MAXIMA|::|$LISTIFY| #14#) |MAXIMA|::|$CS|))))
+ |MAXIMA|::|MEXPR|) 
+(|MAXIMA|::|ADD2LNC| '((|MAXIMA|::|$COLUMNSPACE|) |MAXIMA|::|$A|)
+ |MAXIMA|::|$FUNCTIONS|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$LINALG_RANK|
+ ((|COMMON-LISP|::|LAMBDA|) ((|MAXIMA|::|MLIST|) |MAXIMA|::|$M|)
+  ((|MAXIMA|::|$LENGTH|
+    #1=(142.
+        "C:\\maxima-5.42.2\\share\\maxima\\5.42.2\\share\\linearalgebra\\linearalgebra.mac"
+        |MAXIMA|::|SRC| |MAXIMA|::|$LINALG_RANK| 142.))
+   ((|MAXIMA|::|$COLUMNSPACE| #1#) |MAXIMA|::|$M|)))
+ |MAXIMA|::|MEXPR|) 
+(|MAXIMA|::|ADD2LNC| '((|MAXIMA|::|$LINALG_RANK|) |MAXIMA|::|$M|)
+ |MAXIMA|::|$FUNCTIONS|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$ROWSWAP|
+ ((|COMMON-LISP|::|LAMBDA|)
+  ((|MAXIMA|::|MLIST|) |MAXIMA|::|$M| |MAXIMA|::|$I| |MAXIMA|::|$J|)
+  ((|MAXIMA|::|MPROG|
+    #1=(144. .
+        #2=("C:\\maxima-5.42.2\\share\\maxima\\5.42.2\\share\\linearalgebra\\linearalgebra.mac"
+            |MAXIMA|::|SRC| |MAXIMA|::|$ROWSWAP| 144.)))
+   ((|MAXIMA|::|MLIST| #1#) |MAXIMA|::|$N| |MAXIMA|::|$P| |MAXIMA|::|$R|)
+   ((|MAXIMA|::|$LOCAL| (145. . #2#)) |MAXIMA|::|$P|)
+   ((|MAXIMA|::|$REQUIRE_MATRIX| (146. . #2#)) |MAXIMA|::|$M| "first"
+    "rowswap")
+   ((|MAXIMA|::|$REQUIRE_INTEGER| (147. . #2#)) |MAXIMA|::|$I| "second"
+    "rowswap")
+   ((|MAXIMA|::|$REQUIRE_INTEGER| (148. . #2#)) |MAXIMA|::|$J| "third"
+    "rowswap")
+   ((|MAXIMA|::|MSETQ| #3=(149. . #2#)) |MAXIMA|::|$N|
+    ((|MAXIMA|::|$LENGTH| #3#) |MAXIMA|::|$M|))
+   ((|MAXIMA|::|MCOND| #4=(150. . #2#))
+    ((|MAXIMA|::|MOR| #4#) ((|MAXIMA|::|MLESSP| #4#) |MAXIMA|::|$I| 1.)
+     ((|MAXIMA|::|MGREATERP| #4#) |MAXIMA|::|$I| |MAXIMA|::|$N|)
+     ((|MAXIMA|::|MGREATERP| #4#) |MAXIMA|::|$J| |MAXIMA|::|$N|))
+    ((|MAXIMA|::|$ERROR| #4#) "Array index out of bounds") |COMMON-LISP|::|T|
+    |MAXIMA|::|$FALSE|)
+   ((|MAXIMA|::|MSETQ| #5=(151. . #2#)) |MAXIMA|::|$P|
+    ((|MAXIMA|::|$COPYMATRIX| #5#) |MAXIMA|::|$M|))
+   ((|MAXIMA|::|MSETQ| #6=(152. . #2#)) |MAXIMA|::|$R|
+    ((|MAXIMA|::|$P| |MAXIMA|::|ARRAY| #6#) |MAXIMA|::|$I|))
+   ((|MAXIMA|::|MSETQ| #7=(153. . #2#))
+    ((|MAXIMA|::|$P| |MAXIMA|::|ARRAY| #7#) |MAXIMA|::|$I|)
+    ((|MAXIMA|::|$P| |MAXIMA|::|ARRAY| #7#) |MAXIMA|::|$J|))
+   ((|MAXIMA|::|MSETQ| #8=(154. . #2#))
+    ((|MAXIMA|::|$P| |MAXIMA|::|ARRAY| #8#) |MAXIMA|::|$J|) |MAXIMA|::|$R|)
+   |MAXIMA|::|$P|))
+ |MAXIMA|::|MEXPR|) 
+(|MAXIMA|::|ADD2LNC|
+ '((|MAXIMA|::|$ROWSWAP|) |MAXIMA|::|$M| |MAXIMA|::|$I| |MAXIMA|::|$J|)
+ |MAXIMA|::|$FUNCTIONS|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$COLUMNSWAP|
+ ((|COMMON-LISP|::|LAMBDA|)
+  ((|MAXIMA|::|MLIST|) |MAXIMA|::|$M| |MAXIMA|::|$I| |MAXIMA|::|$J|)
+  ((|MAXIMA|::|$TRANSPOSE|
+    #1=(157.
+        "C:\\maxima-5.42.2\\share\\maxima\\5.42.2\\share\\linearalgebra\\linearalgebra.mac"
+        |MAXIMA|::|SRC| |MAXIMA|::|$COLUMNSWAP| 157.))
+   ((|MAXIMA|::|$ROWSWAP| #1#) ((|MAXIMA|::|$TRANSPOSE| #1#) |MAXIMA|::|$M|)
+    |MAXIMA|::|$I| |MAXIMA|::|$J|)))
+ |MAXIMA|::|MEXPR|) 
+(|MAXIMA|::|ADD2LNC|
+ '((|MAXIMA|::|$COLUMNSWAP|) |MAXIMA|::|$M| |MAXIMA|::|$I| |MAXIMA|::|$J|)
+ |MAXIMA|::|$FUNCTIONS|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$ROWOP|
+ ((|COMMON-LISP|::|LAMBDA|)
+  ((|MAXIMA|::|MLIST|) |MAXIMA|::|$M| |MAXIMA|::|$I| |MAXIMA|::|$J|
+   |MAXIMA|::|$THETA|)
+  ((|MAXIMA|::|MPROG|
+    #1=(161. .
+        #2=("C:\\maxima-5.42.2\\share\\maxima\\5.42.2\\share\\linearalgebra\\linearalgebra.mac"
+            |MAXIMA|::|SRC| |MAXIMA|::|$ROWOP| 161.)))
+   ((|MAXIMA|::|MLIST| #1#)
+    ((|MAXIMA|::|MSETQ| #1#) |MAXIMA|::|$P|
+     ((|MAXIMA|::|$COPYMATRIX| #1#) |MAXIMA|::|$M|))
+    ((|MAXIMA|::|MSETQ| #1#) |MAXIMA|::|$LISTARITH| |COMMON-LISP|::|T|))
+   ((|MAXIMA|::|$LOCAL| (162. . #2#)) |MAXIMA|::|$P|)
+   ((|MAXIMA|::|MSETQ| #3=(163. . #2#))
+    ((|MAXIMA|::|$P| |MAXIMA|::|ARRAY| #3#) |MAXIMA|::|$I|)
+    ((|MAXIMA|::|MPLUS| #3#)
+     ((|MAXIMA|::|$P| |MAXIMA|::|ARRAY| #3#) |MAXIMA|::|$I|)
+     ((|MAXIMA|::|MMINUS| #3#)
+      ((|MAXIMA|::|MTIMES| #3#) |MAXIMA|::|$THETA|
+       ((|MAXIMA|::|$P| |MAXIMA|::|ARRAY| #3#) |MAXIMA|::|$J|)))))
+   |MAXIMA|::|$P|))
+ |MAXIMA|::|MEXPR|) 
+(|MAXIMA|::|ADD2LNC|
+ '((|MAXIMA|::|$ROWOP|) |MAXIMA|::|$M| |MAXIMA|::|$I| |MAXIMA|::|$J|
+   |MAXIMA|::|$THETA|)
+ |MAXIMA|::|$FUNCTIONS|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$COLUMNOP|
+ ((|COMMON-LISP|::|LAMBDA|)
+  ((|MAXIMA|::|MLIST|) |MAXIMA|::|$M| |MAXIMA|::|$I| |MAXIMA|::|$J|
+   |MAXIMA|::|$THETA|)
+  ((|MAXIMA|::|$TRANSPOSE|
+    #1=(168.
+        "C:\\maxima-5.42.2\\share\\maxima\\5.42.2\\share\\linearalgebra\\linearalgebra.mac"
+        |MAXIMA|::|SRC| |MAXIMA|::|$COLUMNOP| 168.))
+   ((|MAXIMA|::|$ROWOP| #1#) ((|MAXIMA|::|$TRANSPOSE| #1#) |MAXIMA|::|$M|)
+    |MAXIMA|::|$I| |MAXIMA|::|$J| |MAXIMA|::|$THETA|)))
+ |MAXIMA|::|MEXPR|) 
+(|MAXIMA|::|ADD2LNC|
+ '((|MAXIMA|::|$COLUMNOP|) |MAXIMA|::|$M| |MAXIMA|::|$I| |MAXIMA|::|$J|
+   |MAXIMA|::|$THETA|)
+ |MAXIMA|::|$FUNCTIONS|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$HIPOW_GZERO|
+ ((|COMMON-LISP|::|LAMBDA|) ((|MAXIMA|::|MLIST|) |MAXIMA|::|$E| |MAXIMA|::|$X|)
+  ((|MAXIMA|::|MPROG|
+    #1=(170.
+        "C:\\maxima-5.42.2\\share\\maxima\\5.42.2\\share\\linearalgebra\\linearalgebra.mac"
+        |MAXIMA|::|SRC| |MAXIMA|::|$HIPOW_GZERO| 170.))
+   ((|MAXIMA|::|MLIST| #1#)
+    ((|MAXIMA|::|MSETQ| #1#) |MAXIMA|::|$N|
+     ((|MAXIMA|::|$HIPOW| #1#) |MAXIMA|::|$E| |MAXIMA|::|$X|)))
+   ((|MAXIMA|::|MCOND| #1#) ((|MAXIMA|::|MGREATERP| #1#) |MAXIMA|::|$N| 0.)
+    |MAXIMA|::|$N| |COMMON-LISP|::|T|
+    ((|MAXIMA|::|MQUOTE| #1#) |MAXIMA|::|$INF|))))
+ |MAXIMA|::|MEXPR|) 
+(|MAXIMA|::|ADD2LNC|
+ '((|MAXIMA|::|$HIPOW_GZERO|) |MAXIMA|::|$E| |MAXIMA|::|$X|)
+ |MAXIMA|::|$FUNCTIONS|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$GOOD_PIVOT|
+ ((|COMMON-LISP|::|LAMBDA|) ((|MAXIMA|::|MLIST|) |MAXIMA|::|$E| |MAXIMA|::|$X|)
+  ((|MAXIMA|::|MAND|
+    #1=(171.
+        "C:\\maxima-5.42.2\\share\\maxima\\5.42.2\\share\\linearalgebra\\linearalgebra.mac"
+        |MAXIMA|::|SRC| |MAXIMA|::|$GOOD_PIVOT| 171.))
+   ((|MAXIMA|::|$FREEOF| #1#) |MAXIMA|::|$X| |MAXIMA|::|$E|)
+   ((|MAXIMA|::|MNOTEQUAL| #1#) |MAXIMA|::|$E| 0.)))
+ |MAXIMA|::|MEXPR|) 
+(|MAXIMA|::|ADD2LNC| '((|MAXIMA|::|$GOOD_PIVOT|) |MAXIMA|::|$E| |MAXIMA|::|$X|)
+ |MAXIMA|::|$FUNCTIONS|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$PTRIANGULARIZE|
+ ((|COMMON-LISP|::|LAMBDA|) ((|MAXIMA|::|MLIST|) |MAXIMA|::|$M| |MAXIMA|::|$V|)
+  ((|MAXIMA|::|MPROG|
+    #1=(173. .
+        #2=("C:\\maxima-5.42.2\\share\\maxima\\5.42.2\\share\\linearalgebra\\linearalgebra.mac"
+            |MAXIMA|::|SRC| |MAXIMA|::|$PTRIANGULARIZE| 173.)))
+   ((|MAXIMA|::|MLIST| #1#)
+    ((|MAXIMA|::|MSETQ| #1#) |MAXIMA|::|$P|
+     ((|MAXIMA|::|$PTRIANGULARIZE_WITH_PROVISO| #1#) |MAXIMA|::|$M|
+      |MAXIMA|::|$V|)))
+   ((|MAXIMA|::|MCOND| #3=(174. . #2#))
+    ((|MAXIMA|::|MNOT| #3#)
+     ((|MAXIMA|::|$EMPTYP| #3#) ((|MAXIMA|::|$P| |MAXIMA|::|ARRAY| #3#) 2.)))
+    ((|MAXIMA|::|$PRINT| #3#) "Proviso: "
+     ((|MAXIMA|::|$P| |MAXIMA|::|ARRAY| #3#) 2.))
+    |COMMON-LISP|::|T| |MAXIMA|::|$FALSE|)
+   ((|MAXIMA|::|$P| |MAXIMA|::|ARRAY| (175. . #2#)) 1.)))
+ |MAXIMA|::|MEXPR|) 
+(|MAXIMA|::|ADD2LNC|
+ '((|MAXIMA|::|$PTRIANGULARIZE|) |MAXIMA|::|$M| |MAXIMA|::|$V|)
+ |MAXIMA|::|$FUNCTIONS|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$PTRIANGULARIZE_WITH_PROVISO|
+ ((|COMMON-LISP|::|LAMBDA|) ((|MAXIMA|::|MLIST|) |MAXIMA|::|$M| |MAXIMA|::|$V|)
+  ((|MAXIMA|::|MPROG|
+    #1=(177. .
+        #2=("C:\\maxima-5.42.2\\share\\maxima\\5.42.2\\share\\linearalgebra\\linearalgebra.mac"
+            |MAXIMA|::|SRC| |MAXIMA|::|$PTRIANGULARIZE_WITH_PROVISO| 177.)))
+   ((|MAXIMA|::|MLIST| #1#) |MAXIMA|::|$NR| |MAXIMA|::|$NC|
+    ((|MAXIMA|::|MSETQ| #1#) |MAXIMA|::|$PROVISO| ((|MAXIMA|::|MLIST| #1#)))
+    |MAXIMA|::|$MP|)
+   ((|MAXIMA|::|$REQUIRE_UNBLOCKEDMATRIX| (178. . #2#)) |MAXIMA|::|$M| "first"
+    "ptriangularize")
+   ((|MAXIMA|::|$REQUIRE_SYMBOL| (179. . #2#)) |MAXIMA|::|$V| "second"
+    "ptriangularize")
+   ((|MAXIMA|::|MSETQ| #3=(180. . #2#)) |MAXIMA|::|$NR|
+    ((|MAXIMA|::|$LENGTH| #3#) |MAXIMA|::|$M|))
+   ((|MAXIMA|::|MSETQ| #4=(181. . #2#)) |MAXIMA|::|$NC|
+    ((|MAXIMA|::|$LENGTH| #4#) ((|MAXIMA|::|$FIRST| #4#) |MAXIMA|::|$M|)))
+   ((|MAXIMA|::|MDO| #5=(182. . #2#)) |MAXIMA|::|$I| 1. |COMMON-LISP|::|NIL|
+    |COMMON-LISP|::|NIL|
+    ((|MAXIMA|::|$MIN| #5#) |MAXIMA|::|$NR| |MAXIMA|::|$NC|)
+    |COMMON-LISP|::|NIL|
+    ((|MAXIMA|::|MPROGN| #5#)
+     ((|MAXIMA|::|MSETQ| #6=(183. . #2#)) |MAXIMA|::|$MP|
+      ((|MAXIMA|::|$COLUMN_REDUCE| #6#) |MAXIMA|::|$M| |MAXIMA|::|$I|
+       |MAXIMA|::|$V|))
+     ((|MAXIMA|::|MSETQ| #7=(184. . #2#)) |MAXIMA|::|$M|
+      ((|MAXIMA|::|$FIRST| #7#) |MAXIMA|::|$MP|))
+     ((|MAXIMA|::|MSETQ| #8=(185. . #2#)) |MAXIMA|::|$PROVISO|
+      ((|MAXIMA|::|$APPEND| #8#) |MAXIMA|::|$PROVISO|
+       ((|MAXIMA|::|$SECOND| #8#) |MAXIMA|::|$MP|)))))
+   ((|MAXIMA|::|MSETQ| #9=(186. . #2#)) |MAXIMA|::|$PROVISO|
+    ((|MAXIMA|::|$SETIFY| #9#) |MAXIMA|::|$PROVISO|))
+   ((|MAXIMA|::|MLIST| #10=(187. . #2#))
+    ((|MAXIMA|::|$EXPAND| #10#) |MAXIMA|::|$M|)
+    ((|MAXIMA|::|$RATSIMP| #10#) |MAXIMA|::|$PROVISO|))))
+ |MAXIMA|::|MEXPR|) 
+(|MAXIMA|::|ADD2LNC|
+ '((|MAXIMA|::|$PTRIANGULARIZE_WITH_PROVISO|) |MAXIMA|::|$M| |MAXIMA|::|$V|)
+ |MAXIMA|::|$FUNCTIONS|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$COLUMN_REDUCE|
+ ((|COMMON-LISP|::|LAMBDA|)
+  ((|MAXIMA|::|MLIST|) |MAXIMA|::|$M| |MAXIMA|::|$I| |MAXIMA|::|$X|)
+  ((|MAXIMA|::|MPROG|
+    #1=(189. .
+        #2=("C:\\maxima-5.42.2\\share\\maxima\\5.42.2\\share\\linearalgebra\\linearalgebra.mac"
+            |MAXIMA|::|SRC| |MAXIMA|::|$COLUMN_REDUCE| 189.)))
+   ((|MAXIMA|::|MLIST| #1#) |MAXIMA|::|$NC| |MAXIMA|::|$NR| |MAXIMA|::|$POS|
+    |MAXIMA|::|$Q|
+    ((|MAXIMA|::|MSETQ| #1#) |MAXIMA|::|$PROVISO| ((|MAXIMA|::|MLIST| #1#))))
+   ((|MAXIMA|::|MSETQ| #3=(191. . #2#)) |MAXIMA|::|$NC|
+    ((|MAXIMA|::|$LENGTH| #3#) ((|MAXIMA|::|$FIRST| #3#) |MAXIMA|::|$M|)))
+   ((|MAXIMA|::|MSETQ| #4=(192. . #2#)) |MAXIMA|::|$NR|
+    ((|MAXIMA|::|$LENGTH| #4#) |MAXIMA|::|$M|))
+   ((|MAXIMA|::|MDO| #5=(196. . #2#)) |COMMON-LISP|::|NIL| |COMMON-LISP|::|NIL|
+    |COMMON-LISP|::|NIL| |COMMON-LISP|::|NIL| |COMMON-LISP|::|NIL|
+    ((|MAXIMA|::|MNOT| #6=(197. . #2#))
+     ((|MAXIMA|::|MAND| #5#)
+      ((|MAXIMA|::|MNOT| #5#)
+       ((|MAXIMA|::|$GOOD_PIVOT| #5#)
+        ((|MAXIMA|::|$M| |MAXIMA|::|ARRAY| #5#) |MAXIMA|::|$I| |MAXIMA|::|$I|)
+        |MAXIMA|::|$X|))
+      ((|MAXIMA|::|MLEQP| #5#) ((|MAXIMA|::|MPLUS| #5#) |MAXIMA|::|$I| 1.)
+       |MAXIMA|::|$NR|)
+      ((|MAXIMA|::|$LISTP| #6#)
+       ((|MAXIMA|::|MSETQ| #6#) |MAXIMA|::|$POS|
+        ((|MAXIMA|::|$LOCATE_MATRIX_ENTRY| #6#) |MAXIMA|::|$M|
+         ((|MAXIMA|::|MPLUS| #6#) |MAXIMA|::|$I| 1.) |MAXIMA|::|$I|
+         |MAXIMA|::|$NR| |MAXIMA|::|$I|
+         ((|COMMON-LISP|::|LAMBDA| #6#)
+          ((|MAXIMA|::|MLIST| #6#) |MAXIMA|::|$E|)
+          ((|MAXIMA|::|MNOTEQUAL| #6#) |MAXIMA|::|$E| 0.))
+         ((|MAXIMA|::|MQUOTE| #6#) |MAXIMA|::|$BOOL|))))))
+    ((|MAXIMA|::|MPROGN| #6#)
+     ((|MAXIMA|::|MSETQ| #7=(198. . #2#)) |MAXIMA|::|$POS|
+      ((|MAXIMA|::|$LOCATE_MATRIX_ENTRY| #7#) |MAXIMA|::|$M| |MAXIMA|::|$I|
+       |MAXIMA|::|$I| |MAXIMA|::|$NR| |MAXIMA|::|$I|
+       ((|COMMON-LISP|::|LAMBDA| #7#) ((|MAXIMA|::|MLIST| #7#) |MAXIMA|::|$E|)
+        ((|MAXIMA|::|$GOOD_PIVOT| #7#) |MAXIMA|::|$E| |MAXIMA|::|$X|))
+       ((|MAXIMA|::|MQUOTE| #7#) |MAXIMA|::|$BOOL|)))
+     ((|MAXIMA|::|MCOND| #8=(199. . #2#))
+      ((|MAXIMA|::|$LISTP| #8#) |MAXIMA|::|$POS|)
+      ((|MAXIMA|::|MSETQ| #9=(200. . #2#)) |MAXIMA|::|$M|
+       ((|MAXIMA|::|$ROWSWAP| #9#) |MAXIMA|::|$M| |MAXIMA|::|$I|
+        ((|MAXIMA|::|$POS| |MAXIMA|::|ARRAY| #9#) 1.)))
+      |COMMON-LISP|::|T|
+      ((|MAXIMA|::|MPROGN| (201. . #2#))
+       ((|MAXIMA|::|MSETQ| #10=(202. . #2#)) |MAXIMA|::|$M|
+        ((|MAXIMA|::|$EXPAND| #10#) |MAXIMA|::|$M|))
+       ((|MAXIMA|::|MSETQ| #11=(203. . #2#)) |MAXIMA|::|$POS|
+        ((|MAXIMA|::|$LOCATE_MATRIX_ENTRY| #11#) |MAXIMA|::|$M| |MAXIMA|::|$I|
+         |MAXIMA|::|$I| |MAXIMA|::|$NR| |MAXIMA|::|$I|
+         ((|COMMON-LISP|::|LAMBDA| #11#)
+          ((|MAXIMA|::|MLIST| #11#) |MAXIMA|::|$E|)
+          ((|MAXIMA|::|$HIPOW| #11#) |MAXIMA|::|$E| |MAXIMA|::|$X|))
+         ((|MAXIMA|::|MQUOTE| #11#) |MAXIMA|::|$MAX|)))
+       ((|MAXIMA|::|MSETQ| #12=(204. . #2#)) |MAXIMA|::|$M|
+        ((|MAXIMA|::|$ROWSWAP| #12#) |MAXIMA|::|$M| |MAXIMA|::|$I|
+         ((|MAXIMA|::|$POS| |MAXIMA|::|ARRAY| #12#) 1.)))
+       ((|MAXIMA|::|MSETQ| #13=(205. . #2#)) |MAXIMA|::|$POS|
+        ((|MAXIMA|::|$LOCATE_MATRIX_ENTRY| #13#) |MAXIMA|::|$M|
+         ((|MAXIMA|::|MPLUS| #13#) |MAXIMA|::|$I| 1.) |MAXIMA|::|$I|
+         |MAXIMA|::|$NR| |MAXIMA|::|$I|
+         ((|COMMON-LISP|::|LAMBDA| #13#)
+          ((|MAXIMA|::|MLIST| #13#) |MAXIMA|::|$E|)
+          ((|MAXIMA|::|$HIPOW_GZERO| #13#) |MAXIMA|::|$E| |MAXIMA|::|$X|))
+         ((|MAXIMA|::|MQUOTE| #13#) |MAXIMA|::|$MIN|)))
+       ((|MAXIMA|::|MCOND| #14=(206. . #2#))
+        ((|MAXIMA|::|$LISTP| #14#) |MAXIMA|::|$POS|)
+        ((|MAXIMA|::|MPROGN| #14#)
+         ((|MAXIMA|::|MSETQ| #15=(207. . #2#)) |MAXIMA|::|$Q|
+          ((|MAXIMA|::|$DIVIDE| #15#)
+           ((|MAXIMA|::|$M| |MAXIMA|::|ARRAY| #15#) |MAXIMA|::|$I|
+            |MAXIMA|::|$I|)
+           ((|MAXIMA|::|$M| |MAXIMA|::|ARRAY| #15#)
+            ((|MAXIMA|::|$POS| |MAXIMA|::|ARRAY| #15#) 1.) |MAXIMA|::|$I|)
+           |MAXIMA|::|$X|))
+         ((|MAXIMA|::|MSETQ| #16=(208. . #2#)) |MAXIMA|::|$M|
+          ((|MAXIMA|::|$ROWOP| #16#) |MAXIMA|::|$M| |MAXIMA|::|$I|
+           ((|MAXIMA|::|$POS| |MAXIMA|::|ARRAY| #16#) 1.)
+           ((|MAXIMA|::|$FIRST| #16#) |MAXIMA|::|$Q|))))
+        |COMMON-LISP|::|T| |MAXIMA|::|$FALSE|)))))
+   ((|MAXIMA|::|MSETQ| #17=(210. . #2#)) |MAXIMA|::|$POS|
+    ((|MAXIMA|::|$LOCATE_MATRIX_ENTRY| #17#) |MAXIMA|::|$M| |MAXIMA|::|$I|
+     |MAXIMA|::|$I| |MAXIMA|::|$NR| |MAXIMA|::|$I|
+     ((|COMMON-LISP|::|LAMBDA| #17#) ((|MAXIMA|::|MLIST| #17#) |MAXIMA|::|$E|)
+      ((|MAXIMA|::|$GOOD_PIVOT| #17#) |MAXIMA|::|$E| |MAXIMA|::|$X|))
+     ((|MAXIMA|::|MQUOTE| #17#) |MAXIMA|::|$BOOL|)))
+   ((|MAXIMA|::|MCOND| #18=(212. . #2#))
+    ((|MAXIMA|::|$LISTP| #18#) |MAXIMA|::|$POS|)
+    ((|MAXIMA|::|MPROGN| #18#)
+     ((|MAXIMA|::|MSETQ| #19=(213. . #2#)) |MAXIMA|::|$M|
+      ((|MAXIMA|::|$ROWSWAP| #19#) |MAXIMA|::|$M| |MAXIMA|::|$I|
+       ((|MAXIMA|::|$FIRST| #19#) |MAXIMA|::|$POS|)))
+     ((|MAXIMA|::|MDO| #20=(214. . #2#)) |MAXIMA|::|$J|
+      ((|MAXIMA|::|MPLUS| #20#) |MAXIMA|::|$I| 1.) |COMMON-LISP|::|NIL|
+      |COMMON-LISP|::|NIL| |MAXIMA|::|$NR| |COMMON-LISP|::|NIL|
+      ((|MAXIMA|::|MPROGN| #20#)
+       ((|MAXIMA|::|MCOND| #21=(215. . #2#))
+        ((|MAXIMA|::|MNOT| #21#)
+         ((|MAXIMA|::|$CONSTANTP| #21#)
+          ((|MAXIMA|::|$RATNUMER| #21#)
+           ((|MAXIMA|::|$M| |MAXIMA|::|ARRAY| #21#) |MAXIMA|::|$I|
+            |MAXIMA|::|$I|))))
+        ((|MAXIMA|::|MSETQ| #22=(216. . #2#)) |MAXIMA|::|$PROVISO|
+         ((|MAXIMA|::|$CONS| #22#)
+          ((|MAXIMA|::|MNOTEQUAL| #22#)
+           ((|MAXIMA|::|$RATNUMER| #22#)
+            ((|MAXIMA|::|$M| |MAXIMA|::|ARRAY| #22#) |MAXIMA|::|$I|
+             |MAXIMA|::|$I|))
+           0.)
+          |MAXIMA|::|$PROVISO|))
+        |COMMON-LISP|::|T| |MAXIMA|::|$FALSE|)
+       ((|MAXIMA|::|MCOND| #23=(217. . #2#))
+        ((|MAXIMA|::|MNOT| #23#)
+         ((|MAXIMA|::|$CONSTANTP| #23#)
+          ((|MAXIMA|::|$RATDENOM| #23#)
+           ((|MAXIMA|::|$M| |MAXIMA|::|ARRAY| #23#) |MAXIMA|::|$I|
+            |MAXIMA|::|$I|))))
+        ((|MAXIMA|::|MSETQ| #24=(218. . #2#)) |MAXIMA|::|$PROVISO|
+         ((|MAXIMA|::|$CONS| #24#)
+          ((|MAXIMA|::|MNOTEQUAL| #24#)
+           ((|MAXIMA|::|$RATDENOM| #24#)
+            ((|MAXIMA|::|$M| |MAXIMA|::|ARRAY| #24#) |MAXIMA|::|$I|
+             |MAXIMA|::|$I|))
+           0.)
+          |MAXIMA|::|$PROVISO|))
+        |COMMON-LISP|::|T| |MAXIMA|::|$FALSE|)
+       ((|MAXIMA|::|MSETQ| #25=(219. . #2#)) |MAXIMA|::|$M|
+        ((|MAXIMA|::|$ROWOP| #25#) |MAXIMA|::|$M| |MAXIMA|::|$J| |MAXIMA|::|$I|
+         ((|MAXIMA|::|MQUOTIENT| #25#)
+          ((|MAXIMA|::|$M| |MAXIMA|::|ARRAY| #25#) |MAXIMA|::|$J|
+           |MAXIMA|::|$I|)
+          ((|MAXIMA|::|$M| |MAXIMA|::|ARRAY| #25#) |MAXIMA|::|$I|
+           |MAXIMA|::|$I|)))))))
+    |COMMON-LISP|::|T|
+    ((|MAXIMA|::|MPROGN| (220. . #2#))
+     ((|MAXIMA|::|MSETQ| #26=(221. . #2#)) |MAXIMA|::|$POS|
+      ((|MAXIMA|::|$LOCATE_MATRIX_ENTRY| #26#) |MAXIMA|::|$M| |MAXIMA|::|$I|
+       |MAXIMA|::|$I| |MAXIMA|::|$NR| |MAXIMA|::|$I|
+       ((|COMMON-LISP|::|LAMBDA| #26#)
+        ((|MAXIMA|::|MLIST| #26#) |MAXIMA|::|$E|)
+        ((|MAXIMA|::|MNOTEQUAL| #26#) |MAXIMA|::|$E| 0.))
+       ((|MAXIMA|::|MQUOTE| #26#) |MAXIMA|::|$BOOL|)))
+     ((|MAXIMA|::|MCOND| #27=(222. . #2#))
+      ((|MAXIMA|::|$LISTP| #27#) |MAXIMA|::|$POS|)
+      ((|MAXIMA|::|MSETQ| #27#) |MAXIMA|::|$M|
+       ((|MAXIMA|::|$ROWSWAP| #27#) |MAXIMA|::|$M| |MAXIMA|::|$I|
+        ((|MAXIMA|::|$FIRST| #27#) |MAXIMA|::|$POS|)))
+      |COMMON-LISP|::|T| |MAXIMA|::|$FALSE|)))
+   ((|MAXIMA|::|MLIST| (223. . #2#)) |MAXIMA|::|$M| |MAXIMA|::|$PROVISO|)))
+ |MAXIMA|::|MEXPR|) 
+(|MAXIMA|::|ADD2LNC|
+ '((|MAXIMA|::|$COLUMN_REDUCE|) |MAXIMA|::|$M| |MAXIMA|::|$I| |MAXIMA|::|$X|)
+ |MAXIMA|::|$FUNCTIONS|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$MAT_NORM|
+ ((|COMMON-LISP|::|LAMBDA|) ((|MAXIMA|::|MLIST|) |MAXIMA|::|$M| |MAXIMA|::|$P|)
+  ((|MAXIMA|::|MPROG|
+    #1=(225. .
+        #2=("C:\\maxima-5.42.2\\share\\maxima\\5.42.2\\share\\linearalgebra\\linearalgebra.mac"
+            |MAXIMA|::|SRC| |MAXIMA|::|$MAT_NORM| 225.)))
+   ((|MAXIMA|::|MLIST| #1#)
+    ((|MAXIMA|::|MSETQ| #1#) |MAXIMA|::|$LISTARITH| |COMMON-LISP|::|T|))
+   ((|MAXIMA|::|$REQUIRE_MATRIX| (226. . #2#)) |MAXIMA|::|$M| "first"
+    "mat_norm")
+   ((|MAXIMA|::|MCOND| #3=(227. . #2#))
+    ((|MAXIMA|::|$BLOCKMATRIXP| #3#) |MAXIMA|::|$M|)
+    ((|MAXIMA|::|MSETQ| #3#) |MAXIMA|::|$M|
+     ((|MAXIMA|::|$MAT_FULLUNBLOCKER| #3#) |MAXIMA|::|$M|))
+    |COMMON-LISP|::|T| |MAXIMA|::|$FALSE|)
+   ((|MAXIMA|::|MCOND| #4=(228. . #2#))
+    ((|MAXIMA|::|MEQUAL| #4#) |MAXIMA|::|$P| 1.)
+    ((|MAXIMA|::|$LMAX| #4#)
+     ((|MAXIMA|::|$XREDUCE| #4#) "+"
+      ((|MAXIMA|::|$MAP| #4#)
+       ((|COMMON-LISP|::|LAMBDA| #4#) ((|MAXIMA|::|MLIST| #4#) |MAXIMA|::|$S|)
+        ((|MAXIMA|::|$MAP| #4#) ((|MAXIMA|::|MQUOTE| #4#) |MAXIMA|::|$CABS|)
+         |MAXIMA|::|$S|))
+       ((|MAXIMA|::|MCOND| #4#)
+        ((|MAXIMA|::|MEQUAL| #4#) ((|MAXIMA|::|$ARGS| #4#) |MAXIMA|::|$M|)
+         ((|MAXIMA|::|MLIST| #4#)))
+        ((|MAXIMA|::|MLIST| #4#) ((|MAXIMA|::|MLIST| #4#))) |COMMON-LISP|::|T|
+        ((|MAXIMA|::|$ARGS| #4#) |MAXIMA|::|$M|)))))
+    |COMMON-LISP|::|T|
+    ((|MAXIMA|::|MCOND| #5=(229. . #2#))
+     ((|MAXIMA|::|MEQUAL| #5#) |MAXIMA|::|$P|
+      ((|MAXIMA|::|MQUOTE| #5#) |MAXIMA|::|$INF|))
+     ((|MAXIMA|::|$LMAX| #5#)
+      ((|MAXIMA|::|$MAP| #5#)
+       ((|COMMON-LISP|::|LAMBDA| #5#) ((|MAXIMA|::|MLIST| #5#) |MAXIMA|::|$S|)
+        ((|MAXIMA|::|$XREDUCE| #5#) "+"
+         ((|MAXIMA|::|$MAP| #5#) ((|MAXIMA|::|MQUOTE| #5#) |MAXIMA|::|$CABS|)
+          |MAXIMA|::|$S|)))
+       ((|MAXIMA|::|$ARGS| #5#) |MAXIMA|::|$M|)))
+     |COMMON-LISP|::|T|
+     ((|MAXIMA|::|MCOND| #6=(230. . #2#))
+      ((|MAXIMA|::|MEQUAL| #6#) |MAXIMA|::|$P|
+       ((|MAXIMA|::|MQUOTE| #6#) |MAXIMA|::|$FROBENIUS|))
+      ((|MAXIMA|::|%SQRT| #6#)
+       ((|MAXIMA|::|$XREDUCE| #6#) "+"
+        ((|MAXIMA|::|$LREDUCE| #6#)
+         ((|MAXIMA|::|MQUOTE| #6#) |MAXIMA|::|$APPEND|)
+         ((|MAXIMA|::|$ARGS| #6#)
+          ((|MAXIMA|::|MEXPT| #6#) ((|MAXIMA|::|$CABS| #6#) |MAXIMA|::|$M|)
+           2.)))))
+      |COMMON-LISP|::|T|
+      ((|MAXIMA|::|$ERROR| (231. . #2#)) "Not able to compute the "
+       |MAXIMA|::|$P| " norm"))))))
+ |MAXIMA|::|MEXPR|) 
+(|MAXIMA|::|ADD2LNC| '((|MAXIMA|::|$MAT_NORM|) |MAXIMA|::|$M| |MAXIMA|::|$P|)
+ |MAXIMA|::|$FUNCTIONS|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$MAT_FULLUNBLOCKER|
+ ((|COMMON-LISP|::|LAMBDA|) ((|MAXIMA|::|MLIST|) |MAXIMA|::|$M|)
+  ((|MAXIMA|::|MPROG|
+    (233. .
+     #1=("C:\\maxima-5.42.2\\share\\maxima\\5.42.2\\share\\linearalgebra\\linearalgebra.mac"
+         |MAXIMA|::|SRC| |MAXIMA|::|$MAT_FULLUNBLOCKER| 233.)))
+   ((|MAXIMA|::|$REQUIRE_MATRIX| (234. . #1#)) |MAXIMA|::|$M| "first"
+    "mat_unblocker")
+   ((|MAXIMA|::|MCOND| #2=(235. . #1#))
+    ((|MAXIMA|::|$BLOCKMATRIXP| #2#) |MAXIMA|::|$M|)
+    ((|MAXIMA|::|$MAT_FULLUNBLOCKER| #3=(236. . #1#))
+     ((|MAXIMA|::|$LREDUCE| #3#) ((|MAXIMA|::|MQUOTE| #3#) |MAXIMA|::|$ADDROW|)
+      ((|MAXIMA|::|$ARGS| #3#)
+       ((|MAXIMA|::|$MAP| #3#)
+        ((|COMMON-LISP|::|LAMBDA| #3#) ((|MAXIMA|::|MLIST| #3#) |MAXIMA|::|$X|)
+         ((|MAXIMA|::|$LREDUCE| #3#)
+          ((|MAXIMA|::|MQUOTE| #3#) |MAXIMA|::|$ADDCOL|) |MAXIMA|::|$X|))
+        |MAXIMA|::|$M|))))
+    |COMMON-LISP|::|T| |MAXIMA|::|$M|)))
+ |MAXIMA|::|MEXPR|) 
+(|MAXIMA|::|ADD2LNC| '((|MAXIMA|::|$MAT_FULLUNBLOCKER|) |MAXIMA|::|$M|)
+ |MAXIMA|::|$FUNCTIONS|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$MAT_UNBLOCKER|
+ ((|COMMON-LISP|::|LAMBDA|) ((|MAXIMA|::|MLIST|) |MAXIMA|::|$M|)
+  ((|MAXIMA|::|MPROG|
+    (239. .
+     #1=("C:\\maxima-5.42.2\\share\\maxima\\5.42.2\\share\\linearalgebra\\linearalgebra.mac"
+         |MAXIMA|::|SRC| |MAXIMA|::|$MAT_UNBLOCKER| 239.)))
+   ((|MAXIMA|::|$REQUIRE_MATRIX| (240. . #1#)) |MAXIMA|::|$M| "first"
+    "mat_unblocker")
+   ((|MAXIMA|::|MCOND| #2=(241. . #1#))
+    ((|MAXIMA|::|$BLOCKMATRIXP| #2#) |MAXIMA|::|$M|)
+    ((|MAXIMA|::|$LREDUCE| #3=(242. . #1#))
+     ((|MAXIMA|::|MQUOTE| #3#) |MAXIMA|::|$ADDROW|)
+     ((|MAXIMA|::|$ARGS| #3#)
+      ((|MAXIMA|::|$MAP| #3#)
+       ((|COMMON-LISP|::|LAMBDA| #3#) ((|MAXIMA|::|MLIST| #3#) |MAXIMA|::|$X|)
+        ((|MAXIMA|::|$LREDUCE| #3#)
+         ((|MAXIMA|::|MQUOTE| #3#) |MAXIMA|::|$ADDCOL|) |MAXIMA|::|$X|))
+       |MAXIMA|::|$M|)))
+    |COMMON-LISP|::|T| |MAXIMA|::|$M|)))
+ |MAXIMA|::|MEXPR|) 
+(|MAXIMA|::|ADD2LNC| '((|MAXIMA|::|$MAT_UNBLOCKER|) |MAXIMA|::|$M|)
+ |MAXIMA|::|$FUNCTIONS|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$MAT_TRACE|
+ ((|COMMON-LISP|::|LAMBDA|) ((|MAXIMA|::|MLIST|) |MAXIMA|::|$M|)
+  ((|MAXIMA|::|MPROG|
+    #1=(245. .
+        #2=("C:\\maxima-5.42.2\\share\\maxima\\5.42.2\\share\\linearalgebra\\linearalgebra.mac"
+            |MAXIMA|::|SRC| |MAXIMA|::|$MAT_TRACE| 245.)))
+   ((|MAXIMA|::|MLIST| #1#) |MAXIMA|::|$N|
+    ((|MAXIMA|::|MSETQ| #1#) |MAXIMA|::|$ACC| 0.))
+   ((|MAXIMA|::|MCOND| #3=(246. . #2#))
+    ((|MAXIMA|::|MNOT| #3#) ((|MAXIMA|::|$MATRIXP| #3#) |MAXIMA|::|$M|))
+    ((|MAXIMA|::|$FUNMAKE| #3#)
+     ((|MAXIMA|::|MQUOTE| #3#) |MAXIMA|::|$MAT_TRACE|)
+     ((|MAXIMA|::|MLIST| #3#) |MAXIMA|::|$M|))
+    |COMMON-LISP|::|T|
+    ((|MAXIMA|::|MPROGN| #3#)
+     ((|MAXIMA|::|MSETQ| #4=(247. . #2#)) |MAXIMA|::|$N|
+      ((|MAXIMA|::|$MATRIX_SIZE| #4#) |MAXIMA|::|$M|))
+     ((|MAXIMA|::|MCOND| #5=(248. . #2#))
+      ((|MAXIMA|::|MNOTEQUAL| #5#) ((|MAXIMA|::|$FIRST| #5#) |MAXIMA|::|$N|)
+       ((|MAXIMA|::|$SECOND| #5#) |MAXIMA|::|$N|))
+      ((|MAXIMA|::|$ERROR| #5#)
+       "The first argument to 'mat_trace' must be a square matrix")
+      |COMMON-LISP|::|T| |MAXIMA|::|$FALSE|)
+     ((|MAXIMA|::|MSETQ| #6=(249. . #2#)) |MAXIMA|::|$N|
+      ((|MAXIMA|::|$FIRST| #6#) |MAXIMA|::|$N|))
+     ((|MAXIMA|::|MDO| (250. . #2#)) |MAXIMA|::|$I| 1. |COMMON-LISP|::|NIL|
+      |COMMON-LISP|::|NIL| |MAXIMA|::|$N| |COMMON-LISP|::|NIL|
+      ((|MAXIMA|::|MSETQ| #7=(251. . #2#)) |MAXIMA|::|$ACC|
+       ((|MAXIMA|::|MPLUS| #7#) |MAXIMA|::|$ACC|
+        ((|MAXIMA|::|MCOND| #7#)
+         ((|MAXIMA|::|$MATRIXP| #7#)
+          ((|MAXIMA|::|$M| |MAXIMA|::|ARRAY| #7#) |MAXIMA|::|$I|
+           |MAXIMA|::|$I|))
+         ((|MAXIMA|::|$MAT_TRACE| #7#)
+          ((|MAXIMA|::|$M| |MAXIMA|::|ARRAY| #7#) |MAXIMA|::|$I|
+           |MAXIMA|::|$I|))
+         |COMMON-LISP|::|T|
+         ((|MAXIMA|::|$M| |MAXIMA|::|ARRAY| #7#) |MAXIMA|::|$I|
+          |MAXIMA|::|$I|)))))
+     |MAXIMA|::|$ACC|))))
+ |MAXIMA|::|MEXPR|) 
+(|MAXIMA|::|ADD2LNC| '((|MAXIMA|::|$MAT_TRACE|) |MAXIMA|::|$M|)
+ |MAXIMA|::|$FUNCTIONS|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$KRONECKER_PRODUCT|
+ ((|COMMON-LISP|::|LAMBDA|) ((|MAXIMA|::|MLIST|) |MAXIMA|::|$A| |MAXIMA|::|$B|)
+  ((|MAXIMA|::|MPROGN|
+    (254. .
+     #1=("C:\\maxima-5.42.2\\share\\maxima\\5.42.2\\share\\linearalgebra\\linearalgebra.mac"
+         |MAXIMA|::|SRC| |MAXIMA|::|$KRONECKER_PRODUCT| 254.)))
+   ((|MAXIMA|::|$REQUIRE_MATRIX| (255. . #1#)) |MAXIMA|::|$A| "first"
+    "kronecker_product")
+   ((|MAXIMA|::|$REQUIRE_MATRIX| (256. . #1#)) |MAXIMA|::|$B| "second"
+    "kronecker_product")
+   ((|MAXIMA|::|$MAT_UNBLOCKER| #2=(257. . #1#))
+    ((|MAXIMA|::|$OUTERMAP| #2#)
+     ((|MAXIMA|::|MQUOTE| #2#) |MAXIMA|::|$MATRIX_ELEMENT_MULT|) |MAXIMA|::|$A|
+     |MAXIMA|::|$B|))))
+ |MAXIMA|::|MEXPR|) 
+(|MAXIMA|::|ADD2LNC|
+ '((|MAXIMA|::|$KRONECKER_PRODUCT|) |MAXIMA|::|$A| |MAXIMA|::|$B|)
+ |MAXIMA|::|$FUNCTIONS|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$DIAG_MATRIX| |COMMON-LISP|::|T|
+ |MAXIMA|::|MLEXPRP|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$DIAG_MATRIX|
+ ((|COMMON-LISP|::|LAMBDA|)
+  ((|MAXIMA|::|MLIST|)
+   ((|MAXIMA|::|MLIST|
+     #1=(259. .
+         #2=("C:\\maxima-5.42.2\\share\\maxima\\5.42.2\\share\\linearalgebra\\linearalgebra.mac"
+             |MAXIMA|::|SRC| |MAXIMA|::|$DIAG_MATRIX| 259.)))
+    |MAXIMA|::|$D|))
+  ((|MAXIMA|::|MPROG| #1#)
+   ((|MAXIMA|::|MLIST| #1#) |MAXIMA|::|$F| |MAXIMA|::|$N|
+    ((|MAXIMA|::|MSETQ| #1#) |MAXIMA|::|$PREDERROR| |COMMON-LISP|::|NIL|))
+   ((|MAXIMA|::|MCOND| #3=(261. . #2#))
+    ((|MAXIMA|::|$EVERY| #3#)
+     ((|COMMON-LISP|::|LAMBDA| #3#) ((|MAXIMA|::|MLIST| #3#) |MAXIMA|::|$S|)
+      ((|MAXIMA|::|MAND| #3#) ((|MAXIMA|::|$MATRIXP| #3#) |MAXIMA|::|$S|)
+       ((|MAXIMA|::|MNOT| #3#)
+        ((|MAXIMA|::|$BLOCKMATRIXP| #3#) |MAXIMA|::|$S|))))
+     |MAXIMA|::|$D|)
+    ((|MAXIMA|::|MSETQ| #4=(262. . #2#)) |MAXIMA|::|$F|
+     ((|COMMON-LISP|::|LAMBDA| #4#)
+      ((|MAXIMA|::|MLIST| #4#) |MAXIMA|::|$I| |MAXIMA|::|$J|)
+      ((|MAXIMA|::|MCOND| #4#)
+       ((|MAXIMA|::|MEQUAL| #4#) |MAXIMA|::|$I| |MAXIMA|::|$J|)
+       ((|MAXIMA|::|$INPART| #4#) |MAXIMA|::|$D| |MAXIMA|::|$I|)
+       |COMMON-LISP|::|T|
+       ((|MAXIMA|::|$ZEROMATRIX| #5=(263. . #2#))
+        ((|MAXIMA|::|$FIRST| #5#)
+         ((|MAXIMA|::|$MATRIX_SIZE| #5#)
+          ((|MAXIMA|::|$INPART| #5#) |MAXIMA|::|$D| |MAXIMA|::|$I|)))
+        ((|MAXIMA|::|$SECOND| #5#)
+         ((|MAXIMA|::|$MATRIX_SIZE| #5#)
+          ((|MAXIMA|::|$INPART| #5#) |MAXIMA|::|$D| |MAXIMA|::|$J|)))))))
+    |COMMON-LISP|::|T|
+    ((|MAXIMA|::|MCOND| #6=(265. . #2#))
+     ((|MAXIMA|::|$SOME| #6#)
+      ((|COMMON-LISP|::|LAMBDA| #6#) ((|MAXIMA|::|MLIST| #6#) |MAXIMA|::|$S|)
+       ((|MAXIMA|::|MOR| #6#) ((|MAXIMA|::|$MATRIXP| #6#) |MAXIMA|::|$S|)
+        ((|MAXIMA|::|$BLOCKMATRIXP| #6#) |MAXIMA|::|$S|)))
+      |MAXIMA|::|$D|)
+     ((|MAXIMA|::|$ERROR| (266. . #2#))
+      "All arguments to 'diag_matrix' must either be unblocked matrices or non-matrices")
+     |COMMON-LISP|::|T|
+     ((|MAXIMA|::|MSETQ| #7=(268. . #2#)) |MAXIMA|::|$F|
+      ((|COMMON-LISP|::|LAMBDA| #7#)
+       ((|MAXIMA|::|MLIST| #7#) |MAXIMA|::|$I| |MAXIMA|::|$J|)
+       ((|MAXIMA|::|MCOND| #7#)
+        ((|MAXIMA|::|MEQUAL| #7#) |MAXIMA|::|$I| |MAXIMA|::|$J|)
+        ((|MAXIMA|::|$INPART| #7#) |MAXIMA|::|$D| |MAXIMA|::|$I|)
+        |COMMON-LISP|::|T| 0.)))))
+   ((|MAXIMA|::|MSETQ| #8=(270. . #2#)) |MAXIMA|::|$N|
+    ((|MAXIMA|::|$LENGTH| #8#) |MAXIMA|::|$D|))
+   ((|MAXIMA|::|$GENMATRIX| (271. . #2#)) |MAXIMA|::|$F| |MAXIMA|::|$N|
+    |MAXIMA|::|$N|)))
+ |MAXIMA|::|MEXPR|) 
+(|MAXIMA|::|ADD2LNC|
+ '((|MAXIMA|::|$DIAG_MATRIX|)
+   ((|MAXIMA|::|MLIST|
+     (259.
+      "C:\\maxima-5.42.2\\share\\maxima\\5.42.2\\share\\linearalgebra\\linearalgebra.mac"
+      |MAXIMA|::|SRC| |MAXIMA|::|$DIAG_MATRIX| 259.))
+    |MAXIMA|::|$D|))
+ |MAXIMA|::|$FUNCTIONS|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$HILBERT_MATRIX|
+ ((|COMMON-LISP|::|LAMBDA|) ((|MAXIMA|::|MLIST|) |MAXIMA|::|$N|)
+  ((|MAXIMA|::|MPROG|
+    #1=(273. .
+        #2=("C:\\maxima-5.42.2\\share\\maxima\\5.42.2\\share\\linearalgebra\\linearalgebra.mac"
+            |MAXIMA|::|SRC| |MAXIMA|::|$HILBERT_MATRIX| 273.)))
+   ((|MAXIMA|::|MLIST| #1#) |MAXIMA|::|$ROW|
+    ((|MAXIMA|::|MSETQ| #1#) |MAXIMA|::|$MAT| ((|MAXIMA|::|MLIST| #1#))))
+   ((|MAXIMA|::|$MODEDECLARE| (274. . #2#)) |MAXIMA|::|$N|
+    |MAXIMA|::|$INTEGER|)
+   ((|MAXIMA|::|$REQUIRE_POSINTEGER| (275. . #2#)) |MAXIMA|::|$N| "first"
+    "hilbert_matrix")
+   ((|MAXIMA|::|MSETQ| #3=(276. . #2#)) |MAXIMA|::|$ROW|
+    ((|MAXIMA|::|$MAKELIST| #3#)
+     ((|MAXIMA|::|MQUOTIENT| #3#) 1. |MAXIMA|::|$I|) |MAXIMA|::|$I| 1.
+     |MAXIMA|::|$N|))
+   ((|MAXIMA|::|MDO| #4=(277. . #2#)) |MAXIMA|::|$I| 1. |COMMON-LISP|::|NIL|
+    |COMMON-LISP|::|NIL| |MAXIMA|::|$N| |COMMON-LISP|::|NIL|
+    ((|MAXIMA|::|MPROGN| #4#)
+     ((|MAXIMA|::|MSETQ| #5=(278. . #2#)) |MAXIMA|::|$MAT|
+      ((|MAXIMA|::|$CONS| #5#) |MAXIMA|::|$ROW| |MAXIMA|::|$MAT|))
+     ((|MAXIMA|::|MSETQ| #6=(279. . #2#)) |MAXIMA|::|$ROW|
+      ((|MAXIMA|::|$ENDCONS| #6#)
+       ((|MAXIMA|::|MQUOTIENT| #6#) 1.
+        ((|MAXIMA|::|MPLUS| #6#) |MAXIMA|::|$N| |MAXIMA|::|$I|))
+       ((|MAXIMA|::|$REST| #6#) |MAXIMA|::|$ROW|)))))
+   ((|MAXIMA|::|$FUNMAKE| #7=(280. . #2#))
+    ((|MAXIMA|::|MQUOTE| #7#) |MAXIMA|::|$MATRIX|)
+    ((|MAXIMA|::|$REVERSE| #7#) |MAXIMA|::|$MAT|))))
+ |MAXIMA|::|MEXPR|) 
+(|MAXIMA|::|ADD2LNC| '((|MAXIMA|::|$HILBERT_MATRIX|) |MAXIMA|::|$N|)
+ |MAXIMA|::|$FUNCTIONS|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$HANKEL| |COMMON-LISP|::|T|
+ |MAXIMA|::|MLEXPRP|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$HANKEL|
+ ((|COMMON-LISP|::|LAMBDA|)
+  ((|MAXIMA|::|MLIST|)
+   ((|MAXIMA|::|MLIST|
+     #1=(282. .
+         #2=("C:\\maxima-5.42.2\\share\\maxima\\5.42.2\\share\\linearalgebra\\linearalgebra.mac"
+             |MAXIMA|::|SRC| |MAXIMA|::|$HANKEL| 282.)))
+    |MAXIMA|::|$Q|))
+  ((|MAXIMA|::|MPROG| #1#)
+   ((|MAXIMA|::|MLIST| #1#) |MAXIMA|::|$COL| |MAXIMA|::|$ROW| |MAXIMA|::|$M|
+    |MAXIMA|::|$N|
+    ((|MAXIMA|::|MSETQ| #1#) |MAXIMA|::|$PARTSWITCH| |COMMON-LISP|::|NIL|))
+   ((|MAXIMA|::|MCOND| #3=(283. . #2#))
+    ((|MAXIMA|::|MOR| #3#)
+     ((|MAXIMA|::|MGREATERP| #3#) ((|MAXIMA|::|$LENGTH| #3#) |MAXIMA|::|$Q|)
+      2.)
+     ((|MAXIMA|::|MLESSP| #3#) ((|MAXIMA|::|$LENGTH| #3#) |MAXIMA|::|$Q|) 1.))
+    ((|MAXIMA|::|$ERROR| #3#)
+     "The function 'hankel' requires one or two arguments")
+    |COMMON-LISP|::|T| |MAXIMA|::|$FALSE|)
+   ((|MAXIMA|::|MSETQ| #4=(284. . #2#)) |MAXIMA|::|$COL|
+    ((|MAXIMA|::|$INPART| #4#) |MAXIMA|::|$Q| 1.))
+   ((|MAXIMA|::|MSETQ| #5=(285. . #2#)) |MAXIMA|::|$ROW|
+    ((|MAXIMA|::|MCOND| #5#)
+     ((|MAXIMA|::|MEQUAL| #5#) ((|MAXIMA|::|$LENGTH| #5#) |MAXIMA|::|$Q|) 2.)
+     ((|MAXIMA|::|$INPART| #5#) |MAXIMA|::|$Q| 2.) |COMMON-LISP|::|T|
+     ((|MAXIMA|::|$MAP| #5#)
+      ((|COMMON-LISP|::|LAMBDA| #5#) ((|MAXIMA|::|MLIST| #5#) |MAXIMA|::|$X|)
+       0.)
+      |MAXIMA|::|$COL|)))
+   ((|MAXIMA|::|$REQUIRE_LIST| (287. . #2#)) |MAXIMA|::|$ROW| "first" "hankel")
+   ((|MAXIMA|::|$REQUIRE_LIST| (288. . #2#)) |MAXIMA|::|$COL| "second"
+    "hankel")
+   ((|MAXIMA|::|MSETQ| #6=(289. . #2#)) |MAXIMA|::|$M|
+    ((|MAXIMA|::|$LENGTH| #6#) |MAXIMA|::|$ROW|))
+   ((|MAXIMA|::|MSETQ| #7=(290. . #2#)) |MAXIMA|::|$N|
+    ((|MAXIMA|::|$LENGTH| #7#) |MAXIMA|::|$COL|))
+   ((|MAXIMA|::|$GENMATRIX| #8=(291. . #2#))
+    ((|COMMON-LISP|::|LAMBDA| #8#)
+     ((|MAXIMA|::|MLIST| #8#) |MAXIMA|::|$I| |MAXIMA|::|$J|)
+     ((|MAXIMA|::|MCOND| #8#)
+      ((|MAXIMA|::|MLEQP| #8#)
+       ((|MAXIMA|::|MPLUS| #8#) |MAXIMA|::|$I| |MAXIMA|::|$J|
+        ((|MAXIMA|::|MMINUS| #8#) 1.))
+       |MAXIMA|::|$N|)
+      ((|MAXIMA|::|$INPART| #8#) |MAXIMA|::|$COL|
+       ((|MAXIMA|::|MPLUS| #8#) |MAXIMA|::|$I| |MAXIMA|::|$J|
+        ((|MAXIMA|::|MMINUS| #8#) 1.)))
+      |COMMON-LISP|::|T|
+      ((|MAXIMA|::|$INPART| #8#) |MAXIMA|::|$ROW|
+       ((|MAXIMA|::|MPLUS| #8#) |MAXIMA|::|$I| |MAXIMA|::|$J|
+        ((|MAXIMA|::|MMINUS| #8#) |MAXIMA|::|$N|)))))
+    |MAXIMA|::|$N| |MAXIMA|::|$M|)))
+ |MAXIMA|::|MEXPR|) 
+(|MAXIMA|::|ADD2LNC|
+ '((|MAXIMA|::|$HANKEL|)
+   ((|MAXIMA|::|MLIST|
+     (282.
+      "C:\\maxima-5.42.2\\share\\maxima\\5.42.2\\share\\linearalgebra\\linearalgebra.mac"
+      |MAXIMA|::|SRC| |MAXIMA|::|$HANKEL| 282.))
+    |MAXIMA|::|$Q|))
+ |MAXIMA|::|$FUNCTIONS|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$TOEPLITZ| |COMMON-LISP|::|T|
+ |MAXIMA|::|MLEXPRP|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$TOEPLITZ|
+ ((|COMMON-LISP|::|LAMBDA|)
+  ((|MAXIMA|::|MLIST|)
+   ((|MAXIMA|::|MLIST|
+     #1=(293. .
+         #2=("C:\\maxima-5.42.2\\share\\maxima\\5.42.2\\share\\linearalgebra\\linearalgebra.mac"
+             |MAXIMA|::|SRC| |MAXIMA|::|$TOEPLITZ| 293.)))
+    |MAXIMA|::|$Q|))
+  ((|MAXIMA|::|MPROG| #1#)
+   ((|MAXIMA|::|MLIST| #1#) |MAXIMA|::|$COL| |MAXIMA|::|$ROW| |MAXIMA|::|$M|
+    |MAXIMA|::|$N|
+    ((|MAXIMA|::|MSETQ| #1#) |MAXIMA|::|$PARTSWITCH| |COMMON-LISP|::|NIL|))
+   ((|MAXIMA|::|MCOND| #3=(294. . #2#))
+    ((|MAXIMA|::|MOR| #3#)
+     ((|MAXIMA|::|MGREATERP| #3#) ((|MAXIMA|::|$LENGTH| #3#) |MAXIMA|::|$Q|)
+      2.)
+     ((|MAXIMA|::|MLESSP| #3#) ((|MAXIMA|::|$LENGTH| #3#) |MAXIMA|::|$Q|) 1.))
+    ((|MAXIMA|::|$ERROR| #3#)
+     "The function 'toeplitz' requires one or two arguments")
+    |COMMON-LISP|::|T| |MAXIMA|::|$FALSE|)
+   ((|MAXIMA|::|MSETQ| #4=(295. . #2#)) |MAXIMA|::|$COL|
+    ((|MAXIMA|::|$INPART| #4#) |MAXIMA|::|$Q| 1.))
+   ((|MAXIMA|::|MSETQ| #5=(296. . #2#)) |MAXIMA|::|$ROW|
+    ((|MAXIMA|::|MCOND| #5#)
+     ((|MAXIMA|::|MEQUAL| #5#) ((|MAXIMA|::|$LENGTH| #5#) |MAXIMA|::|$Q|) 2.)
+     ((|MAXIMA|::|$INPART| #5#) |MAXIMA|::|$Q| 2.) |COMMON-LISP|::|T|
+     ((|MAXIMA|::|$MAP| #5#) ((|MAXIMA|::|MQUOTE| #5#) |MAXIMA|::|$CONJUGATE|)
+      |MAXIMA|::|$COL|)))
+   ((|MAXIMA|::|$REQUIRE_LIST| (298. . #2#)) |MAXIMA|::|$ROW| "first"
+    "toeplitz")
+   ((|MAXIMA|::|$REQUIRE_LIST| (299. . #2#)) |MAXIMA|::|$COL| "second"
+    "toeplitz")
+   ((|MAXIMA|::|MSETQ| #6=(300. . #2#)) |MAXIMA|::|$M|
+    ((|MAXIMA|::|$LENGTH| #6#) |MAXIMA|::|$ROW|))
+   ((|MAXIMA|::|MSETQ| #7=(301. . #2#)) |MAXIMA|::|$N|
+    ((|MAXIMA|::|$LENGTH| #7#) |MAXIMA|::|$COL|))
+   ((|MAXIMA|::|$GENMATRIX| #8=(302. . #2#))
+    ((|COMMON-LISP|::|LAMBDA| #8#)
+     ((|MAXIMA|::|MLIST| #8#) |MAXIMA|::|$I| |MAXIMA|::|$J|)
+     ((|MAXIMA|::|MCOND| #8#)
+      ((|MAXIMA|::|MGEQP| #8#)
+       ((|MAXIMA|::|MPLUS| #8#) |MAXIMA|::|$I|
+        ((|MAXIMA|::|MMINUS| #8#) |MAXIMA|::|$J|))
+       0.)
+      ((|MAXIMA|::|$INPART| #8#) |MAXIMA|::|$COL|
+       ((|MAXIMA|::|MPLUS| #8#) |MAXIMA|::|$I|
+        ((|MAXIMA|::|MMINUS| #8#) |MAXIMA|::|$J|) 1.))
+      |COMMON-LISP|::|T|
+      ((|MAXIMA|::|$INPART| #8#) |MAXIMA|::|$ROW|
+       ((|MAXIMA|::|MPLUS| #8#) |MAXIMA|::|$J|
+        ((|MAXIMA|::|MMINUS| #8#) |MAXIMA|::|$I|) 1.))))
+    |MAXIMA|::|$N| |MAXIMA|::|$M|)))
+ |MAXIMA|::|MEXPR|) 
+(|MAXIMA|::|ADD2LNC|
+ '((|MAXIMA|::|$TOEPLITZ|)
+   ((|MAXIMA|::|MLIST|
+     (293.
+      "C:\\maxima-5.42.2\\share\\maxima\\5.42.2\\share\\linearalgebra\\linearalgebra.mac"
+      |MAXIMA|::|SRC| |MAXIMA|::|$TOEPLITZ| 293.))
+    |MAXIMA|::|$Q|))
+ |MAXIMA|::|$FUNCTIONS|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$POLYTOCOMPANION|
+ ((|COMMON-LISP|::|LAMBDA|) ((|MAXIMA|::|MLIST|) |MAXIMA|::|$P| |MAXIMA|::|$X|)
+  ((|MAXIMA|::|MPROG|
+    #1=(304. .
+        #2=("C:\\maxima-5.42.2\\share\\maxima\\5.42.2\\share\\linearalgebra\\linearalgebra.mac"
+            |MAXIMA|::|SRC| |MAXIMA|::|$POLYTOCOMPANION| 304.)))
+   ((|MAXIMA|::|MLIST| #1#) |MAXIMA|::|$N|)
+   ((|MAXIMA|::|MCOND| #3=(305. . #2#))
+    ((|MAXIMA|::|MNOT| #3#)
+     ((|MAXIMA|::|$POLYNOMIALP| #3#) |MAXIMA|::|$P|
+      ((|MAXIMA|::|MLIST| #3#) |MAXIMA|::|$X|)
+      ((|COMMON-LISP|::|LAMBDA| #3#) ((|MAXIMA|::|MLIST| #3#) |MAXIMA|::|$E|)
+       ((|MAXIMA|::|$FREEOF| #3#) |MAXIMA|::|$X| |MAXIMA|::|$E|))))
+    ((|MAXIMA|::|$ERROR| (306. . #2#))
+     "First argument to 'polytocompanion' must be a polynomial")
+    |COMMON-LISP|::|T| |MAXIMA|::|$FALSE|)
+   ((|MAXIMA|::|MSETQ| #4=(307. . #2#)) |MAXIMA|::|$P|
+    ((|MAXIMA|::|$EXPAND| #4#) |MAXIMA|::|$P|))
+   ((|MAXIMA|::|MSETQ| #5=(308. . #2#)) |MAXIMA|::|$N|
+    ((|MAXIMA|::|$HIPOW| #5#) |MAXIMA|::|$P| |MAXIMA|::|$X|))
+   ((|MAXIMA|::|MSETQ| #6=(309. . #2#)) |MAXIMA|::|$P|
+    ((|MAXIMA|::|$MULTTHRU| #6#)
+     ((|MAXIMA|::|MQUOTIENT| #6#) |MAXIMA|::|$P|
+      ((|MAXIMA|::|$COEFF| #6#) |MAXIMA|::|$P| |MAXIMA|::|$X|
+       |MAXIMA|::|$N|))))
+   ((|MAXIMA|::|$GENMATRIX| #7=(310. . #2#))
+    ((|COMMON-LISP|::|LAMBDA| #7#)
+     ((|MAXIMA|::|MLIST| #7#) |MAXIMA|::|$I| |MAXIMA|::|$J|)
+     ((|MAXIMA|::|MCOND| #7#)
+      ((|MAXIMA|::|MEQUAL| #7#)
+       ((|MAXIMA|::|MPLUS| #7#) |MAXIMA|::|$I|
+        ((|MAXIMA|::|MMINUS| #7#) |MAXIMA|::|$J|))
+       1.)
+      1. |COMMON-LISP|::|T|
+      ((|MAXIMA|::|MCOND| #7#)
+       ((|MAXIMA|::|MEQUAL| #7#) |MAXIMA|::|$J| |MAXIMA|::|$N|)
+       ((|MAXIMA|::|MMINUS| #7#)
+        ((|MAXIMA|::|$COEFF| #7#) |MAXIMA|::|$P| |MAXIMA|::|$X|
+         ((|MAXIMA|::|MPLUS| #7#) |MAXIMA|::|$I|
+          ((|MAXIMA|::|MMINUS| #7#) 1.))))
+       |COMMON-LISP|::|T| 0.)))
+    |MAXIMA|::|$N|)))
+ |MAXIMA|::|MEXPR|) 
+(|MAXIMA|::|ADD2LNC|
+ '((|MAXIMA|::|$POLYTOCOMPANION|) |MAXIMA|::|$P| |MAXIMA|::|$X|)
+ |MAXIMA|::|$FUNCTIONS|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$MOORE_PENROSE_PSEUDOINVERSE|
+ ((|COMMON-LISP|::|LAMBDA|) ((|MAXIMA|::|MLIST|) |MAXIMA|::|$M|)
+  ((|MAXIMA|::|MPROG|
+    #1=(312. .
+        #2=("C:\\maxima-5.42.2\\share\\maxima\\5.42.2\\share\\linearalgebra\\linearalgebra.mac"
+            |MAXIMA|::|SRC| |MAXIMA|::|$MOORE_PENROSE_PSEUDOINVERSE| 312.)))
+   ((|MAXIMA|::|MLIST| #1#) |MAXIMA|::|$MM|
+    ((|MAXIMA|::|MSETQ| #1#) |MAXIMA|::|$Z| ((|COMMON-LISP|::|GENSYM| #1#)))
+    ((|MAXIMA|::|MSETQ| #1#) |MAXIMA|::|$SCALARMATRIXP| |COMMON-LISP|::|NIL|))
+   ((|MAXIMA|::|$REQUIRE_UNBLOCKEDMATRIX| (313. . #2#)) |MAXIMA|::|$M| "first"
+    "moore_penrose_pseudoinverse")
+   ((|MAXIMA|::|MSETQ| #3=(314. . #2#)) |MAXIMA|::|$MM|
+    ((|MAXIMA|::|MNCTIMES| #3#) |MAXIMA|::|$M|
+     ((|MAXIMA|::|$CTRANSPOSE| #3#) |MAXIMA|::|$M|)))
+   ((|MAXIMA|::|$LIMIT| #4=(315. . #2#))
+    ((|MAXIMA|::|MSETQ| #4#) |MAXIMA|::|$MM|
+     ((|MAXIMA|::|MNCTIMES| #4#) ((|MAXIMA|::|$CTRANSPOSE| #4#) |MAXIMA|::|$M|)
+      ((|MAXIMA|::|MNCEXPT| #4#)
+       ((|MAXIMA|::|MPLUS| #4#) |MAXIMA|::|$MM|
+        ((|MAXIMA|::|MMINUS| #4#)
+         ((|MAXIMA|::|MTIMES| #4#) |MAXIMA|::|$Z|
+          ((|MAXIMA|::|$IDENTFOR| #4#) |MAXIMA|::|$MM|))))
+       ((|MAXIMA|::|MMINUS| #4#) 1.))))
+    |MAXIMA|::|$Z| 0.)))
+ |MAXIMA|::|MEXPR|) 
+(|MAXIMA|::|ADD2LNC|
+ '((|MAXIMA|::|$MOORE_PENROSE_PSEUDOINVERSE|) |MAXIMA|::|$M|)
+ |MAXIMA|::|$FUNCTIONS|) 
+(|MAXIMA|::|DSKSETQ| |MAXIMA|::|$LISTARITH| '|COMMON-LISP|::|T|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$LINEARALGEBRA|
+ (|COMMON-LISP|::|NIL| |MAXIMA|::|$VERSION| 1.) |MAXIMA|::|$PROPS|) 
+(|MAXIMA|::|ADD2LNC| '|MAXIMA|::|$LINEARALGEBRA| |MAXIMA|::|$PROPS|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$INFOLEVEL|
+ (|COMMON-LISP|::|NIL| |MAXIMA|::|$LINEARALGEBRA| |MAXIMA|::|$SILENT|)
+ |MAXIMA|::|$PROPS|) 
+(|MAXIMA|::|ADD2LNC| '|MAXIMA|::|$INFOLEVEL| |MAXIMA|::|$PROPS|) 
+(|MAXIMA|::|DEFPROP| |MAXIMA|::|$POLYNOMIALP| "linearalgebra"
+ |MAXIMA|::|AUTOLOAD|) 
+(|MAXIMA|::|ADD2LNC| '|MAXIMA|::|$POLYNOMIALP| |MAXIMA|::|$PROPS|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$POLYNOMIALP|
+ (|COMMON-LISP|::|NIL| |MAXIMA|::|$VERSION| 1.) |MAXIMA|::|$PROPS|) 
+(|MAXIMA|::|ADD2LNC| '|MAXIMA|::|$POLYNOMIALP| |MAXIMA|::|$PROPS|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$MRING|
+ (|COMMON-LISP|::|NIL| |MAXIMA|::|$VERSION| 1.) |MAXIMA|::|$PROPS|) 
+(|MAXIMA|::|ADD2LNC| '|MAXIMA|::|$MRING| |MAXIMA|::|$PROPS|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$LU|
+ (|COMMON-LISP|::|NIL| |MAXIMA|::|$VERSION| 2.) |MAXIMA|::|$PROPS|) 
+(|MAXIMA|::|ADD2LNC| '|MAXIMA|::|$LU| |MAXIMA|::|$PROPS|) 
+(|MAXIMA|::|DEFPROP| |MAXIMA|::|$CHOLESKY| "linearalgebra"
+ |MAXIMA|::|AUTOLOAD|) 
+(|MAXIMA|::|ADD2LNC| '|MAXIMA|::|$CHOLESKY| |MAXIMA|::|$PROPS|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$CHOLESKY|
+ (|COMMON-LISP|::|NIL| |MAXIMA|::|$VERSION| 1.) |MAXIMA|::|$PROPS|) 
+(|MAXIMA|::|ADD2LNC| '|MAXIMA|::|$CHOLESKY| |MAXIMA|::|$PROPS|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$EIGENSBYJACOBI|
+ (|COMMON-LISP|::|NIL| |MAXIMA|::|$VERSION| 1.) |MAXIMA|::|$PROPS|) 
+(|MAXIMA|::|ADD2LNC| '|MAXIMA|::|$EIGENSBYJACOBI| |MAXIMA|::|$PROPS|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$LINALGEXTRA|
+ (|COMMON-LISP|::|NIL| |MAXIMA|::|$VERSION| 1.) |MAXIMA|::|$PROPS|) 
+(|MAXIMA|::|ADD2LNC| '|MAXIMA|::|$LINALGEXTRA| |MAXIMA|::|$PROPS|) 
+(|MAXIMA|::|DEFPROP| |MAXIMA|::|$MATRIXEXP| "linearalgebra"
+ |MAXIMA|::|AUTOLOAD|) 
+(|MAXIMA|::|ADD2LNC| '|MAXIMA|::|$MATRIXEXP| |MAXIMA|::|$PROPS|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$MATRIXEXP|
+ (|COMMON-LISP|::|NIL| |MAXIMA|::|$VERSION| 1.) |MAXIMA|::|$PROPS|) 
+(|MAXIMA|::|ADD2LNC| '|MAXIMA|::|$MATRIXEXP| |MAXIMA|::|$PROPS|) 
+(|MAXIMA|::|MDEFPROP| |MAXIMA|::|$LINALGUTILITIES|
+ (|COMMON-LISP|::|NIL| |MAXIMA|::|$VERSION| 2.) |MAXIMA|::|$PROPS|) 
+(|MAXIMA|::|ADD2LNC| '|MAXIMA|::|$LINALGUTILITIES| |MAXIMA|::|$PROPS|) 
+(|COMMON-LISP|::|SETQ| |MAXIMA|::|$LINENUM| 21.) 
+(|COMMON-LISP|::|SETQ| |MAXIMA|::|*ALPHABET*|
+ (|COMMON-LISP|::|NCONC| '(#\_ #\%) |MAXIMA|::|*ALPHABET*|)) 

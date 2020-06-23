@@ -1,0 +1,6 @@
+﻿  main.cpp
+c:\users\hugo\desktop\visual studio\exercicio_4.10\exercicio_4.10\main.cpp(22): error C2672: 'unique': no matching overloaded function found
+c:\users\hugo\desktop\visual studio\exercicio_4.10\exercicio_4.10\main.cpp(22): error C2780: '_FwdIt std::unique(_FwdIt,_FwdIt)': expects 2 arguments - 1 provided
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\algorithm(2138): note: see declaration of 'std::unique'
+c:\users\hugo\desktop\visual studio\exercicio_4.10\exercicio_4.10\main.cpp(22): error C2780: '_FwdIt std::unique(_FwdIt,_FwdIt,_Pr)': expects 3 arguments - 1 provided
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\algorithm(2108): note: see declaration of 'std::unique'

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="MinSizeRel-MinGW" CONFIG_NAME="MinSizeRel" TOOLCHAIN_NAME="MinGW" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="90c542cc-1e6f-4921-9f6f-8d93a9791558" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/feup-aeda-project" />
+  </component>
+  <component name="ProjectId" id="1SIFuDygU3z2S2PGaHCr6ecsJNV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Projeto" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/feup-aeda-project/files" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Projeto" TARGET_NAME="Projeto" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Projeto" RUN_TARGET_NAME="Projeto">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="90c542cc-1e6f-4921-9f6f-8d93a9791558" name="Default Changelist" comment="" />
+      <created>1571243423048</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571243423048</updated>
+      <workItem from="1571243424331" duration="97000" />
+      <workItem from="1571243598246" duration="8182000" />
+      <workItem from="1571259252573" duration="1680000" />
+      <workItem from="1571392043804" duration="7830000" />
+      <workItem from="1571415440842" duration="389000" />
+      <workItem from="1571673761157" duration="141000" />
+      <workItem from="1572110606502" duration="38000" />
+      <workItem from="1572531512933" duration="3476000" />
+      <workItem from="1573210983487" duration="362000" />
+      <workItem from="1573211482202" duration="6950000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

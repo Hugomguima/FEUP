@@ -1,0 +1,19 @@
+1.1
+
+a = 4t
+v = 2t^2 + vo
+
+v = 2t^2 + 4
+v(3) = 18 + 4 = 22
+
+R:(A);22m/s
+
+2) R:(B) v = -3 m/s, at = 5 m/s^2
+
+3) a = v*(dv/ds) = 2s^2*4s = 8 s^3  Logo, R:(A);2s^3
+
+4) r = (3*2)/2 + (2*2) + (2*2) + (2*1)/2  (Fazer por integrais no maxima)
+     = 3 + 4 + 4 + 1
+     = 12
+5) r:(C) A aceleração tangencial dividida pela velocidade.
+

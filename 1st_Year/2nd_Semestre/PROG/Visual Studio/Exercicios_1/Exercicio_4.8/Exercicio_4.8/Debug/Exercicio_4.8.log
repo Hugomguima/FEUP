@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\hugo\desktop\visual studio\exercicio_4.8\exercicio_4.8\main.cpp(11): warning C4018: '<': signed/unsigned mismatch
+c:\users\hugo\desktop\visual studio\exercicio_4.8\exercicio_4.8\main.cpp(29): warning C4018: '<': signed/unsigned mismatch
+  Exercicio_4.8.vcxproj -> C:\Users\Hugo\Desktop\Visual Studio\Exercicio_4.8\Debug\Exercicio_4.8.exe

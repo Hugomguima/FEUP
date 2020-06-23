@@ -1,0 +1,58 @@
+"C:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\Hugo\Desktop\2ºano\Aeda\aeda1920_fp05 (1)"
+CMake Error: Could not find cmake module file: CMakeDetermine(Compiler.cmake
+CMake Error: Error required internal CMake variable not set, cmake may not be built correctly.
+Missing variable is:
+CMAKE_(_COMPILER_ENV_VAR
+CMake Error: Error required internal CMake variable not set, cmake may not be built correctly.
+Missing variable is:
+CMAKE_(_COMPILER
+CMake Error: Could not find cmake module file: C:/Users/Hugo/Desktop/2Âºano/Aeda/aeda1920_fp05 (1)/cmake-build-debug/CMakeFiles/3.15.3/CMake(Compiler.cmake
+CMake Error: Could not find cmake module file: CMakeDetermine1Compiler.cmake
+CMake Error: Error required internal CMake variable not set, cmake may not be built correctly.
+Missing variable is:
+CMAKE_1_COMPILER_ENV_VAR
+CMake Error: Error required internal CMake variable not set, cmake may not be built correctly.
+Missing variable is:
+CMAKE_1_COMPILER
+CMake Error: Could not find cmake module file: C:/Users/Hugo/Desktop/2Âºano/Aeda/aeda1920_fp05 (1)/cmake-build-debug/CMakeFiles/3.15.3/CMake1Compiler.cmake
+CMake Error: Could not find cmake module file: CMakeDetermine)Compiler.cmake
+CMake Error: Error required internal CMake variable not set, cmake may not be built correctly.
+Missing variable is:
+CMAKE_)_COMPILER_ENV_VAR
+CMake Error: Error required internal CMake variable not set, cmake may not be built correctly.
+Missing variable is:
+CMAKE_)_COMPILER
+CMake Error: Could not find cmake module file: C:/Users/Hugo/Desktop/2Âºano/Aeda/aeda1920_fp05 (1)/cmake-build-debug/CMakeFiles/3.15.3/CMake)Compiler.cmake
+CMake Error at CMakeLists.txt:2 (project):
+  No CMAKE_(_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting the CMake cache entry
+  CMAKE_(_COMPILER to the full path to the compiler, or to the compiler name
+  if it is in the PATH.
+
+
+CMake Error: Could not find cmake module file: CMake(Information.cmake
+CMake Error at CMakeLists.txt:2 (project):
+  No CMAKE_1_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting the CMake cache entry
+  CMAKE_1_COMPILER to the full path to the compiler, or to the compiler name
+  if it is in the PATH.
+
+
+CMake Error: Could not find cmake module file: CMake1Information.cmake
+CMake Error at CMakeLists.txt:2 (project):
+  No CMAKE_)_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting the CMake cache entry
+  CMAKE_)_COMPILER to the full path to the compiler, or to the compiler name
+  if it is in the PATH.
+
+
+CMake Error: Could not find cmake module file: CMake)Information.cmake
+CMake Error: CMAKE_(_COMPILER not set, after EnableLanguage
+CMake Error: CMAKE_1_COMPILER not set, after EnableLanguage
+CMake Error: CMAKE_)_COMPILER not set, after EnableLanguage
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/Hugo/Desktop/2Âºano/Aeda/aeda1920_fp05 (1)/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "C:/Users/Hugo/Desktop/2Âºano/Aeda/aeda1920_fp05 (1)/cmake-build-debug/CMakeFiles/CMakeError.log".

@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\hugo\desktop\visual studio\exercicio_2.15\exercicio_2.15\main.cpp(15): warning C4244: '=': conversion from 'time_t' to 'double', possible loss of data
+c:\users\hugo\desktop\visual studio\exercicio_2.15\exercicio_2.15\main.cpp(17): warning C4244: '=': conversion from 'time_t' to 'double', possible loss of data
+  Exercicio_2.15.vcxproj -> C:\Users\Hugo\Desktop\Visual Studio\Exercicio_2.15\Debug\Exercicio_2.15.exe

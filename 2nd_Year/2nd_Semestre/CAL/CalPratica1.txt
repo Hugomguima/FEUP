@@ -1,0 +1,24 @@
+###Ficha 1 Cal
+
+##Exercício 2:
+
+#a)
+Dados(input):     m: troco a devoler, V = {v1,v2,...,vn} |V| = n
+
+Variáveis de decisão: X = {x1,x2,...,xn} |X| = n
+
+Função ojetivo: min Sum(i=1,n) xi
+
+Restrições : Sum(i=1,n) xi*vi = m
+
+m = 8
+
+V = {1,4,5}
+X = {3,0,1}
+
+#b)
+
+int minCoins(i,k){
+
+
+

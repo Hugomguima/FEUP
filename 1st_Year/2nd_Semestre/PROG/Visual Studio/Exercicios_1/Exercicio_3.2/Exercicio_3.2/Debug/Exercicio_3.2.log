@@ -1,0 +1,3 @@
+﻿  main.cpp
+c:\users\hugo\desktop\visual studio\exercicio_3.2\exercicio_3.2\main.cpp(25): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Exercicio_3.2.vcxproj -> C:\Users\Hugo\Desktop\Visual Studio\Exercicio_3.2\Debug\Exercicio_3.2.exe

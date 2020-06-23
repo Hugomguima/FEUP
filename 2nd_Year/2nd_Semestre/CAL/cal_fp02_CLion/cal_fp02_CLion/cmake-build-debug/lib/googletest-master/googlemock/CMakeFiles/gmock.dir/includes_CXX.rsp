@@ -1,0 +1,1 @@
+-IC:/Users/Hugo/Desktop/cal_fp02_CLion/cal_fp02_CLion/lib/googletest-master/googlemock/include -IC:/Users/Hugo/Desktop/cal_fp02_CLion/cal_fp02_CLion/lib/googletest-master/googlemock -isystem C:/Users/Hugo/Desktop/cal_fp02_CLion/cal_fp02_CLion/lib/googletest-master/googletest/include -isystem C:/Users/Hugo/Desktop/cal_fp02_CLion/cal_fp02_CLion/lib/googletest-master/googletest 

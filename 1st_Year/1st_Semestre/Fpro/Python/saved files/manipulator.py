@@ -1,0 +1,3 @@
+
+def manipulator(l,cmds):
+    

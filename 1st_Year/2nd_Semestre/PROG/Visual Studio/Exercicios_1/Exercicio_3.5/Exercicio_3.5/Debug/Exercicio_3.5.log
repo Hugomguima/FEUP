@@ -1,0 +1,2 @@
+﻿  main.cpp
+c:\users\hugo\desktop\visual studio\exercicio_3.5\exercicio_3.5\main.cpp(23): error C2664: 'bool readFracc(int &,int &)': cannot convert argument 1 from 'double *' to 'int &'

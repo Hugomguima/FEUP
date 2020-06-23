@@ -1,0 +1,4 @@
+﻿  Generating code
+c:\users\hugo\desktop\visual studio\teste\teste\main.cpp(58): error C4700: uninitialized local variable 'a2' used
+  All 86 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+LINK : fatal error LNK1257: code generation failed

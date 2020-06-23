@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\hugo\desktop\visual studio\exercicio_3.3\exercicio_3.3\main.cpp(9): warning C4101: 'x': unreferenced local variable
+c:\users\hugo\desktop\visual studio\exercicio_3.3\exercicio_3.3\main.cpp(9): warning C4101: 'n': unreferenced local variable
+  Exercicio_3.3.vcxproj -> C:\Users\Hugo\Desktop\Visual Studio\Exercicio_3.3\Debug\Exercicio_3.3.exe
