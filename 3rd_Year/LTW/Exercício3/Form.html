@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Form</title>
+    <meta charset="UTF-8">
+  </head>
+<body>
+    <h1>Form Begins here</h1>
+
+    <form action="save.php" method="get">
+
+        <label> Name:
+            <input type="text" name="name"> <br> 
+        </label>
+        <label> Age
+            <select name="Age">
+                <option value="18">&lt;18</option>
+                <option value="19-35">19-35</option>
+                <option value="36-48">36-48</option>
+                <option value=">49">&gt;49</option>
+            </select> <br>
+        </label>    
+        <label> Profession
+            <input type="text" name="profession"> <br>
+        </label>
+        <label> Country
+            <input type="text" name="profession"> <br>
+        </label>
+
+
+        <label for="Int">Interests:</label><br>
+            <input type="checkbox" id="Int" name="Interests" value="10"> 10
+            <input type="checkbox" name="Interests" value="20"> 20
+            <input type="checkbox" name="Interests" value="20"> 30 <br>
+
+        <label> How did you find the site?
+            <br>
+            <textarea name="site" rows="4" cols="50">
+
+            </textarea> <br>
+        </label>
+
+    <input type="submit" value="Send"> 
+    </form>
+    
+    
+</body>
+
+
+    
