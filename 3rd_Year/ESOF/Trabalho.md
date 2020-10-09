@@ -11,3 +11,12 @@ Os utilizadores vão poder visualizar na app quem é o orador atual, assim como 
 - App para ver as conferencias perto da localização que se encontra atualmente
 
 - Listar uma base de dados relativamente às conferências (permitindo pesquisa através do tema da conferência, oradores, participantes, datas,...)
+
+
+## Sites
+### Parte Prática (mais lá para a frente)
+- [wikicpf](http://www.wikicfp.com/cfp/)
+
+- [jpdiasmapa](http://jpdias.me/hikept/) -> Usar isto como exemplo do mapa
+
+- [Mapas](https://leafletjs.com/) -> App para usar um mapa mundial
