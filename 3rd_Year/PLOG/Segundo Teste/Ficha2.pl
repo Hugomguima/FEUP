@@ -1,7 +1,7 @@
 :-use_module(library(clpfd)).
 :-use_module(library(lists)).
 
-% Exercício Fila de carros
+% Exercício Fila de carros - Exercício 5
 
 % 4 carros
 % Cores = [Amarelo,Azul,Verde,Preto]
@@ -54,20 +54,7 @@ carros(Colors,Size):-
     labeling([],Size).
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+% Exercício outra fila de carros - Exercício 5
 
 % 12 Carros
 % 4 amarelos - 1
@@ -115,6 +102,97 @@ colors_once([H1,H2,H3,H4|T],Count):-
     (H1 #= 1 #/\ H2 #= 2 #/\ H3 #=3 #/\ H4 #= 4) #<=> B,
     Count1 #= Count + B,
     colors_once([H2,H3,H4|T],Count1).
+
+
+% Exercício 16 - Líquido ou Pó
+
+% Um terço das pessoas interrogadas não utilizam o pó;
+% Dois sétimos das pessoas interrogadas não utiliza o líquido
+% 427 pessoas utilizam o líquido e o pó
+% Um quinto das pessoas interrogadas não utilizam o produto
+
+liquid(Vars):-
+
+    Vars = [Total,NaoUsa,SoPo,SoLiquido,Ambos],
+
+    domain(Vars,0,10000),
+
+    % People é o valor máximo possível
+    maximum(Total,Vars),
+
+    % Soma de todas as partes tem que dar 1
+
+    % Um terço das pessoas interrogadas não utilizam o pó;
+    Total #= (Total - (SoPo + Ambos)) *3,
+
+    % Dois sétimos das pessoas interrogadas não utiliza o líquido
+    Total * 2 #= (Total - (SoLiquido + Ambos)) *7,
+
+    % 427 pessoas utilizam o líquido e o pó
+    Ambos #= 427,
+    
+    % Um quinto das pessoas interrogadas não utilizam o produto
+    Total #= NaoUsa*5,
+
+    % Relação entre o total e os valores
+    Total #= NaoUsa + SoPo + SoLiquido + Ambos,
+
+    labeling([],Vars). 
+     
+% Exercício 12- Biblioteca do joão
+
+% 52 livros de história, dos quais 27 estão em inglês;
+% 34 livros encadernados com capa dura dos quais 3 são de história e em francês;
+% 46 livros em inglês, a metade deles encadernados com capa comum;
+% 20 livros de literatura em francês;
+% 31 livros de literatura encadernados com capa comum
+
+library([Vars,Total]):-
+
+    Vars = [A,B,C,D,E,F,G,H],
+
+    domain(Vars,0,10000000),
+
+    % 52 livros de história, dos quais 27 estão em inglês;
+    A + B + C + D #= 52,
+    A + C #= 27,
+
+    % 34 livros encadernados com capa dura dos quais 3 são de história e em francês;
+    C + D + G + H #= 34,
+    D #= 3,
+
+    % 46 livros em inglês, a metade deles encadernados com capa comum;
+    A + C + E + G #= 46,
+    A + E #= 23,
+
+    % 20 livros de literatura em francês;
+    F + H #= 20,
+
+    % 31 livros de literatura encadernados com capa comum
+    E + F #= 31,
+
+    labeling([],Vars),
+
+    sum_list(Vars,Total).
+
+
+% Exercício 1 - Sequêcnias mágicas
+
+magic_hexagon(Length):-
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
 
 
 
