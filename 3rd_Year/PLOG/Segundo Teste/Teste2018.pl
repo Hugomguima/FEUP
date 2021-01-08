@@ -1,4 +1,5 @@
 :- use_module(library(clpfd)).
+:- use_module(library(between)).
 
 % Exercício 3, dar fix ao prolog com restrições
 
@@ -39,34 +40,32 @@ gym_pairs(MenHeights,WomenHeights,Delta,Pairs):-
 	length(WomenHeights,ListLength),
 	length(Pairs,ListLength),
 	
-	append(MenIndex,WomenIndex,Vars),
+	findall(I,between(1,ListLength,I),Indexes),
+	
 	
 	% Seperate indexes may be needed
-	length(MenIndex,ListLength),
 	length(WomenIndex,ListLength),
 	
-	all_distinct(MenIndex),
 	all_distinct(WomenIndex),
 	
-	add_restrictions(MenHeights,WomenHeights,MenIndex,WomenIndex),
+	add_restrictions(MenHeights,WomenHeights,WomenIndex),
 	
-	labeling([],Vars),
+	labeling([],WomenIndex),
+	createPairs(Indexes,WomenIndex,Pairs).
 	
-	createPairs(MenIndex,WomenIndex,Pairs).
 	
 	
-
-add_restrictions(_,_,[],[]).
-add_restrictions(MenHeights,WomenHeights,[ManIndex|MenIndex],[WomanIndex|WomenIndex]):-
-	element(ManIndex,MenHeights,ValueMan),
+add_restrictions(_,_,[]).
+add_restrictions([M|MenHeights],WomenHeights,[WomanIndex|WomenIndex]):-
 	element(WomanIndex,WomenHeights,ValueWoman),
-	ValueMan + ValueWoman #=< Delta,
-	ValueMan #> ValueWoman,
-	add_restrictions(MenHeights,WomenHeights,MenIndex,WomenIndex).
+	M + ValueWoman #=< Delta,
+	M #> ValueWoman,
+	add_restrictions(MenHeights,WomenHeights,WomenIndex).
 	
 createPairs([],[],[]).
 createPairs([M|T1],[W|T2],[M-W|T3]):-
 	createPairs(T1,T2,T3).
+	
 	
 % Exercício 5
 
