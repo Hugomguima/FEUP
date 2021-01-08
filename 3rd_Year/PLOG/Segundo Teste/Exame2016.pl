@@ -178,16 +178,11 @@ cut(Shelves,Boards,SelectedBoards):-
     length(SelectedBoards,LengthShelves),
     domain(SelectedBoards,1,Length),
 
-    write(1),
     % generate tasks and machines for cumulatives,
     create_tasks(Shelves,SelectedBoards,Tasks),
     create_machines(Boards,Machines,1),
     
-
     cumulatives(Tasks,Machines,[bound(upper)]),
-
-    append([Tasks,Machines],Vars),
-    
 
     labeling([],SelectedBoards).
 
