@@ -69,7 +69,7 @@ include_once 'game.php';
 $id = $_POST['id'];
 $position = $_POST['position'];
 
-if(isset($position)){
+if(isset($position))
     play($id,$position);
 
 echo json_encode(state($id));
@@ -100,11 +100,6 @@ for(let i = 1; i < 9; i++ ){
     });
 }
 
-
-function sendWithPosition(event){
-
-}
-
 function sendEvent(event){
 
     let dataId = section.getAttribute('data-id');
@@ -115,9 +110,18 @@ function sendEvent(event){
     request.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
     request.send(encodeForAjax({id:dataId}))
 
+}
 
+function requestListener(){
 
+    let response = JSON.parse(this.reponseText);
 
+    let state = document.getElementById('state');
+    state.innerHTML = response.state;
+
+    for(let i = 0; i < squares.length ; i++){
+        squares[i].innerHTML = response.squares[i]
+    }
 }
 
 function requestListener2(){
@@ -130,23 +134,6 @@ function requestListener2(){
         child.nextElementSibling;
     }
 }
-
-
-function requestListener3(){
-
-    let response = JSON.parse(this.reponseText);
-
-    let state = document.getElementById('state');
-    state.innerHTML = response.state;
-
-    for(let i = 0; i < squares.length ; i++){
-        squares[i].innerHTML = response.squares[i]
-    }
-
-
-}
-
-
 
 
 ```

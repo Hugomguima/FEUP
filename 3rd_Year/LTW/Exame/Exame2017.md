@@ -69,7 +69,7 @@ let loadable = document.querySelector('div#photos .load');
 for(let i=0; i < listItems.length;i++>)
     listItems[i].addEventListener("click",function(){
         let data = document.querySelector('div#photos .large');
-        let current = lisItems[i].getAttribute.('src');
+        let current = lisItems[i].getAttribute('src');
         data.setAttribute("src","large/" + src);
     })
 
