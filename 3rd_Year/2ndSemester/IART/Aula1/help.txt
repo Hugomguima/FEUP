@@ -1,0 +1,10 @@
+Bucket Filling Problem
+
+Operator
+
+| Name    |   preconditions  |  Effects   | Cost
+| -|-|-|
+|Emp1 | 
+|Emp2 | 
+|Fill1 | 
+|Fill1 | 
