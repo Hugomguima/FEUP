@@ -32,4 +32,24 @@ Apontamentos do professor
 Estamos a gastar o nosso dinheiro, o dinheiro da nossa empresa
 -> É necessário querer saber detalhes importantes de modo a que nós estejamos a garantir que a comra é boa, ou seja, temos que ser profissionais e não nos mostrar satisfeitos com o que o profissional nos diz. Somos clientes que não queremos sempre dizer que sim.
 
+### Apresentação (Como Profissional)
+##### 
 
+Preparação da Interação (Como Profissional)
+- Cumprimentar o cliente
+- Apresentar os objetivos de uma forma clara
+    - Identificar hipóteses : Aluger, Compra, Gama dos carros, diferentes modelos, vantagem e desvantagem em relação a aluger e compra
+- Adaptar às perguntas do cliente
+- Analisar meios e condições existentes
+- Detetar necessidades de explorar novos interesses
+
+
+
+|Atores | Emissor | Recetor|
+|-|-| -|    
+|Avaliacao|||
+|Orientacao|||
+|Interpretacao|||
+|Apoio|||
+|Exploração|||
+|Compreensão|||
