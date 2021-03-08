@@ -44,6 +44,19 @@ Preparação da Interação (Como Profissional)
 - Detetar necessidades de explorar novos interesses
 
 
+## Discussão #1
+
+Tema: Dota vs League
+
+* Diogo Samuel Fernandess - defendeu LoL
+* Hugo Guimarães - defendeu Dota
+
+## Discussão #2
+
+
+## Discussão #3
+
+#### Observação dos comportantos dos outros
 
 |Atores | Emissor | Recetor|
 |-|-| -|    
@@ -53,3 +66,35 @@ Preparação da Interação (Como Profissional)
 |Apoio|||
 |Exploração|||
 |Compreensão|||
+
+##### Avaliação
+* 1 masoquista complicado /interpretação
+
+desenrasca-te com isso há muitas versões?
+
+##### Orientação
+* 1 muito facil xplicar porque é que é bom
+* pyton não tem piada
+* How to do this in python
+##### Interpretação
+* O que achas de python diz samu?
+##### Apoio
+* proog é fixe diz o samu
+* depois tens 19
+* pois, não te safas em porlog a pesquisar
+##### Exploração
+* como pesquisar coisas de prolog/python
+
+##### Compreensão
+* há melhores linguagens mas apoio?
+* Ao saber tudo de prolog sabem como é queo universo surgiu ? WTF samu??
+* Concordou que prolg até é melhor
+* samu concorda que é dificil encontra coisas sobre prolog na net
+
+
+* Há muitas versões por isso é bom
+
+
+
+
+
